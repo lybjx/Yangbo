@@ -26,6 +26,10 @@ a,.un,.un:link,.un:visited,.un:hover,.un:active{
 .menu1 .menu1_item { display: inline-block; padding: 10px 12px; font-size: 14}
 .menu1 .menu1_item:hover { display: inline-block; padding: 10px 12px; font-size: 14; border: 2px #FF0101; border-bottom-style: solid;}
 
+.intro { width: 594px; height: 103px; position: absolute; font-size: 18px; font-family: PingFangSC-Medium, sans-serif; color: #333333; text-align: center;}
+.intro_head { width: 40px; height: 90px; position: absolute; font-size: 64px; font-family: PingFangSC-Semibold, sans-serif; color: #E1E0E0; text-align: center;}
+.intro_tail { width: 40px; height: 90px; position: absolute; font-size: 64px; font-family: PingFangSC-Semibold, sans-serif; color: #E1E0E0; text-align: center;}
+
 .menu2 { display: inline-block; left: 764px; top: 1595px; width: 367px; height: 40px; position: absolute; border: 1px #DDDFE5; border-bottom-style: solid;}
 .menu2 .menu2_item { display: inline-block; padding: 10px 16px; font-size: 14}
 .menu2 .menu2_item:hover { display: inline-block; padding: 10px 16px; font-size: 14; border: 2px #FF0101; border-bottom-style: solid;}
