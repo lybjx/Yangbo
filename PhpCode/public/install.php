@@ -357,7 +357,7 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <div class="form-field">
                     <label>MySQL 数据库名</label>
-                    <input type="text" name="mysqlDatabase" value="fastadmin" required="">
+                    <input type="text" name="mysqlDatabase" value="yb_cms_db" required="">
                 </div>
 
                 <div class="form-field">

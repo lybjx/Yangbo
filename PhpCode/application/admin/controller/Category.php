@@ -51,6 +51,7 @@ class Category extends Backend
             $search = $this->request->request("search");
             $type = $this->request->request("type");
 
+
             //构造父类select列表选项数据
             $list = [];
 
