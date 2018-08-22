@@ -25,6 +25,15 @@ a,.un,.un:link,.un:visited,.un:hover,.un:active{
 .menu1 { display: inline-block; width: 284px; height: 40px; position: absolute; border: 1px #DDDFE5; border-bottom-style: solid;}
 .menu1 .menu1_item { display: inline-block; padding: 10px 12px; font-size: 14}
 .menu1 .menu1_item:hover { display: inline-block; padding: 10px 12px; font-size: 14; border: 2px #FF0101; border-bottom-style: solid;}
+.school_content { position: absolute; margin: 0 auto; width: 1200px; height: 300px;}
+.school_content_more { position: absolute; margin: 0 auto; width: 128px; height: 48px; border: 1px solid #FF0101; border-radius: 4px; background-color: white; color: #FF0101;}
+.school_slides_block { position: relative; }
+.school_slides .slider_img { width:300px, height:300px; }
+
+.slick-active .school_text_block { position: absolute; top: 0px; left: 0px; display: none; }
+.slick-active:hover .school_text_block { position: absolute; top: 0px; left: 0px; display: table-cell; border: 2px solid #FFFFFF; color: #FFFFFF; width: 280px; height: 280px; margin: 10px; text-align: center; vertical-align: bottom; }
+.school_text_block p { width: 60%; margin: auto; margin-top: 130px;}
+/*.slick-current label { display: block; }*/
 
 .intro { width: 594px; height: 103px; position: absolute; font-size: 18px; font-family: PingFangSC-Medium, sans-serif; color: #333333; text-align: center;}
 .intro_head { width: 40px; height: 90px; position: absolute; font-size: 64px; font-family: PingFangSC-Semibold, sans-serif; color: #E1E0E0; text-align: center;}
