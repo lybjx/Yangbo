@@ -1,0 +1,3840 @@
+---------------------------------------------------------------
+[ 2018-08-22T22:15:42+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.069600s][吞吐率：14.37req/s] [内存消耗：1,691.14kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004314s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:43+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.087870s][吞吐率：11.38req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000174s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004508s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:43+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.090515s][吞吐率：11.05req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008580s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:43+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.095375s][吞吐率：10.48req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002776s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:43+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.101461s][吞吐率：9.86req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000073s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002676s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:43+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947342
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947342 [运行时间：0.098363s][吞吐率：10.17req/s] [内存消耗：2,754.25kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002246s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1534947342',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005388s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000241s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:43+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947342
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947342 [运行时间：0.085257s][吞吐率：11.73req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000201s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005905s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947342',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004486s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000171s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:43+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947342
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947342 [运行时间：0.084954s][吞吐率：11.77req/s] [内存消耗：2,749.07kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003302s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news',
+  'v' => '1534947342',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003753s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000486s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:44+08:00 ] 0.0.0.0 GET /index.php/admin/news/index?sort=weigh&order=desc&_=1534947343278
+[ info ] yb.com/index.php/admin/news/index?sort=weigh&order=desc&_=1534947343278 [运行时间：0.128072s][吞吐率：7.81req/s] [内存消耗：3,556.52kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000072s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002535s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1534947343278',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004147s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000146s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005543s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004432s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cms_article` [ RunTime:0.003466s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` [ RunTime:0.000704s ]
+[ error ] [0]类的属性不存在:app\common\model\News->type_text[/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/library/think/Model.php:624]
+---------------------------------------------------------------
+[ 2018-08-22T22:15:44+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard/index?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard/index?addtabs=1 [运行时间：0.115421s][吞吐率：8.66req/s] [内存消耗：3,700.89kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002637s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002544s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003678s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010201s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.004250s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000728s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:15:45+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.046953s][吞吐率：21.30req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002305s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:45+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.048851s][吞吐率：20.47req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002594s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:45+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.047706s][吞吐率：20.96req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001931s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:45+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.048590s][吞吐率：20.58req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002201s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:15:45+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947344
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947344 [运行时间：0.086153s][吞吐率：11.61req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002538s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947344',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003696s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000256s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:14+08:00 ] 0.0.0.0 GET /index.php/admin/news?ref=addtabs
+[ info ] yb.com/index.php/admin/news?ref=addtabs [运行时间：0.086008s][吞吐率：11.63req/s] [内存消耗：3,269.70kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003980s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002938s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000230s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003544s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005645s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001444s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:14+08:00 ] 0.0.0.0 GET /index.php/admin/index/index
+[ info ] yb.com/index.php/admin/index/index [运行时间：0.172585s][吞吐率：5.79req/s] [内存消耗：3,906.95kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001853s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001970s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000144s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002555s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005463s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002118s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /index.php/admin/news?addtabs=1
+[ info ] yb.com/index.php/admin/news?addtabs=1 [运行时间：0.095617s][吞吐率：10.46req/s] [内存消耗：3,555.93kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002755s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004768s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000185s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002287s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002981s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'news' LIMIT 1 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard?addtabs=1 [运行时间：0.142856s][吞吐率：7.00req/s] [内存消耗：3,700.84kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002442s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004321s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003763s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003503s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002711s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.048470s][吞吐率：20.63req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002429s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.050273s][吞吐率：19.89req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002266s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.051429s][吞吐率：19.44req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002128s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.052781s][吞吐率：18.95req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002141s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.050682s][吞吐率：19.73req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002060s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.063161s][吞吐率：15.83req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002053s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.062889s][吞吐率：15.90req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006445s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.072497s][吞吐率：13.79req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005070s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:15+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947374
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947374 [运行时间：0.088165s][吞吐率：11.34req/s] [内存消耗：2,754.25kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009825s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1534947374',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002899s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000584s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:16+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947375
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947375 [运行时间：0.083049s][吞吐率：12.04req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003608s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947375',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003238s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000245s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:16+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947375
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947375 [运行时间：0.122811s][吞吐率：8.14req/s] [内存消耗：2,749.07kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000079s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003835s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news',
+  'v' => '1534947375',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007435s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000301s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:16+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard/index?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard/index?addtabs=1 [运行时间：0.172675s][吞吐率：5.79req/s] [内存消耗：3,700.89kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004459s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009899s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000261s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005568s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004102s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002410s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000925s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:17+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.040632s][吞吐率：24.61req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002043s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:17+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.041159s][吞吐率：24.30req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001910s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:17+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.052048s][吞吐率：19.21req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000367s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002655s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:17+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.067864s][吞吐率：14.74req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002360s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:17+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947376
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947376 [运行时间：0.059137s][吞吐率：16.91req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003297s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947376',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002469s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:56+08:00 ] 0.0.0.0 GET /index.php/admin/news?ref=addtabs
+[ info ] yb.com/index.php/admin/news?ref=addtabs [运行时间：0.104220s][吞吐率：9.60req/s] [内存消耗：3,269.70kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002533s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003851s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000383s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000713s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003137s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001805s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004750s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001158s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:56+08:00 ] 0.0.0.0 GET /index.php/admin/index/index
+[ info ] yb.com/index.php/admin/index/index [运行时间：0.231750s][吞吐率：4.31req/s] [内存消耗：3,906.95kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004757s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003086s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000185s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005583s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003275s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002402s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard?addtabs=1 [运行时间：0.101209s][吞吐率：9.88req/s] [内存消耗：3,700.84kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002404s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005172s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000352s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.004205s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003841s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /index.php/admin/news?addtabs=1
+[ info ] yb.com/index.php/admin/news?addtabs=1 [运行时间：0.178766s][吞吐率：5.59req/s] [内存消耗：3,555.93kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002364s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004306s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000227s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006255s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007326s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002366s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'news' LIMIT 1 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.052981s][吞吐率：18.87req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003030s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.071895s][吞吐率：13.91req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000399s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002855s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.085415s][吞吐率：11.71req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002036s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.068860s][吞吐率：14.52req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005174s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.059656s][吞吐率：16.76req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002106s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.068348s][吞吐率：14.63req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002293s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.068332s][吞吐率：14.63req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004691s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.077207s][吞吐率：12.95req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003492s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:57+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947416
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947416 [运行时间：0.089072s][吞吐率：11.23req/s] [内存消耗：2,754.25kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000088s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002594s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1534947416',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004286s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001465s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:58+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947417
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947417 [运行时间：0.086066s][吞吐率：11.62req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002543s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947417',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005536s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000275s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:58+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947417
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947417 [运行时间：0.108726s][吞吐率：9.20req/s] [内存消耗：2,749.07kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003174s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news',
+  'v' => '1534947417',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003372s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000218s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:58+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard/index?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard/index?addtabs=1 [运行时间：0.127535s][吞吐率：7.84req/s] [内存消耗：3,700.89kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003419s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003518s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000146s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001306s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.004768s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003835s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002931s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:59+08:00 ] 0.0.0.0 GET /index.php/admin/news/index?sort=weigh&order=desc&_=1534947417834
+[ info ] yb.com/index.php/admin/news/index?sort=weigh&order=desc&_=1534947417834 [运行时间：0.129841s][吞吐率：7.70req/s] [内存消耗：3,556.52kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003032s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1534947417834',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005935s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000204s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000957s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.004183s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003295s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cms_article` [ RunTime:0.002682s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` [ RunTime:0.000549s ]
+[ error ] [0]类的属性不存在:app\common\model\News->type_text[/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/library/think/Model.php:624]
+---------------------------------------------------------------
+[ 2018-08-22T22:16:59+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.048162s][吞吐率：20.76req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002205s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:59+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.051783s][吞吐率：19.31req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002269s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:59+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.050444s][吞吐率：19.82req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004410s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:59+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.053397s][吞吐率：18.73req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003156s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:16:59+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947418
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947418 [运行时间：0.069917s][吞吐率：14.30req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002917s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947418',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001978s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:58+08:00 ] 0.0.0.0 GET /index.php/admin/news?ref=addtabs
+[ info ] yb.com/index.php/admin/news?ref=addtabs [运行时间：0.078402s][吞吐率：12.75req/s] [内存消耗：3,269.70kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000094s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003589s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002314s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000824s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002332s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002841s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000859s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:17:58+08:00 ] 0.0.0.0 GET /index.php/admin/index/index
+[ info ] yb.com/index.php/admin/index/index [运行时间：0.159709s][吞吐率：6.26req/s] [内存消耗：3,906.95kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000302s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003868s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002264s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003441s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001499s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:17:58+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard?addtabs=1 [运行时间：0.107361s][吞吐率：9.31req/s] [内存消耗：3,700.84kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002922s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003223s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002429s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:17:58+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.046326s][吞吐率：21.59req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002118s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:58+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.046968s][吞吐率：21.29req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002427s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /index.php/admin/news?addtabs=1
+[ info ] yb.com/index.php/admin/news?addtabs=1 [运行时间：0.189138s][吞吐率：5.29req/s] [内存消耗：3,555.93kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000176s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003006s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000178s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002429s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004454s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028666s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'news' LIMIT 1 [ RunTime:0.003708s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.054915s][吞吐率：18.21req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000432s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002984s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.142654s][吞吐率：7.01req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002673s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.046089s][吞吐率：21.70req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002349s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.046060s][吞吐率：21.71req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002856s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.067898s][吞吐率：14.73req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000073s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007689s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.086418s][吞吐率：11.57req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005521s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947478
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947478 [运行时间：0.094922s][吞吐率：10.53req/s] [内存消耗：2,754.25kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002697s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1534947478',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003176s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000901s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947478
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947478 [运行时间：0.094110s][吞吐率：10.63req/s] [内存消耗：2,749.07kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002586s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news',
+  'v' => '1534947478',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004048s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000247s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:17:59+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947478
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947478 [运行时间：0.118920s][吞吐率：8.41req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007123s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947478',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004006s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000226s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:18:00+08:00 ] 0.0.0.0 GET /index.php/admin/news/index?sort=weigh&order=desc&_=1534947479579
+[ info ] yb.com/index.php/admin/news/index?sort=weigh&order=desc&_=1534947479579 [运行时间：0.109490s][吞吐率：9.13req/s] [内存消耗：3,556.52kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006107s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1534947479579',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003354s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001122s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000817s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003516s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004294s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cms_article` [ RunTime:0.002799s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` [ RunTime:0.000698s ]
+[ error ] [0]类的属性不存在:app\common\model\News->type_text[/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/library/think/Model.php:624]
+---------------------------------------------------------------
+[ 2018-08-22T22:18:01+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard/index?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard/index?addtabs=1 [运行时间：0.136749s][吞吐率：7.31req/s] [内存消耗：3,700.89kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002343s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005690s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000311s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.004291s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006077s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.005141s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:18:02+08:00 ] 0.0.0.0 GET /assets/css/backend.css.map
+[ info ] yb.com/assets/css/backend.css.map [运行时间：0.045277s][吞吐率：22.09req/s] [内存消耗：1,690.85kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002146s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:18:02+08:00 ] 0.0.0.0 GET /assets/css/skins/skin-green.css.map
+[ info ] yb.com/assets/css/skins/skin-green.css.map [运行时间：0.046625s][吞吐率：21.45req/s] [内存消耗：1,690.86kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003052s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:18:02+08:00 ] 0.0.0.0 GET /assets/css/fastadmin.css.map
+[ info ] yb.com/assets/css/fastadmin.css.map [运行时间：0.050702s][吞吐率：19.72req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002157s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:18:02+08:00 ] 0.0.0.0 GET /assets/css/bootstrap.css.map
+[ info ] yb.com/assets/css/bootstrap.css.map [运行时间：0.057458s][吞吐率：17.40req/s] [内存消耗：1,690.89kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001973s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:18:02+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947480
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947480 [运行时间：0.075063s][吞吐率：13.32req/s] [内存消耗：2,753.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001763s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947480',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002466s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000190s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:19:22+08:00 ] 0.0.0.0 GET /index.php/admin/news?ref=addtabs
+[ info ] yb.com/index.php/admin/news?ref=addtabs [运行时间：0.056025s][吞吐率：17.85req/s] [内存消耗：3,269.63kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001535s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001972s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.004644s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000872s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:19:22+08:00 ] 0.0.0.0 GET /index.php/admin/index/index
+[ info ] yb.com/index.php/admin/index/index [运行时间：0.140963s][吞吐率：7.09req/s] [内存消耗：3,906.88kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001684s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002155s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000282s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002540s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002886s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000841s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:19:22+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard?addtabs=1 [运行时间：0.096348s][吞吐率：10.38req/s] [内存消耗：3,700.69kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002665s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003314s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000319s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001159s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003823s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004249s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003012s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000595s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:19:22+08:00 ] 0.0.0.0 GET /index.php/admin/news?addtabs=1
+[ info ] yb.com/index.php/admin/news?addtabs=1 [运行时间：0.142205s][吞吐率：7.03req/s] [内存消耗：3,555.78kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001609s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003746s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000222s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001403s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005707s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004509s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'news' LIMIT 1 [ RunTime:0.000614s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:19:22+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947562
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=index&v=1534947562 [运行时间：0.066884s][吞吐率：14.95req/s] [内存消耗：2,753.79kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002068s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1534947562',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003028s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000207s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:19:23+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947562
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947562 [运行时间：0.063985s][吞吐率：15.63req/s] [内存消耗：2,752.05kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003738s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947562',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003564s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000183s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:19:23+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947562
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=news&v=1534947562 [运行时间：0.078910s][吞吐率：12.67req/s] [内存消耗：2,748.61kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002848s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'news',
+  'v' => '1534947562',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002251s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000216s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:19:23+08:00 ] 0.0.0.0 GET /index.php/admin/dashboard/index?addtabs=1
+[ info ] yb.com/index.php/admin/dashboard/index?addtabs=1 [运行时间：0.140358s][吞吐率：7.12req/s] [内存消耗：3,700.74kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000417s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003422s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003507s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000314s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001335s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.004249s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004284s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.003292s ]
+---------------------------------------------------------------
+[ 2018-08-22T22:19:23+08:00 ] 0.0.0.0 GET /index.php/admin/news/index?sort=weigh&order=desc&_=1534947562973
+[ info ] yb.com/index.php/admin/news/index?sort=weigh&order=desc&_=1534947562973 [运行时间：0.105626s][吞吐率：9.47req/s] [内存消耗：3,556.37kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002154s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1534947562973',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004472s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->index[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/News.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000970s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003999s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002920s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cms_article` [ RunTime:0.003388s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001786s ]
+[ sql ] [ SQL ] SELECT * FROM `cms_article` [ RunTime:0.001150s ]
+[ error ] [0]类的属性不存在:app\common\model\News->type_text[/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/library/think/Model.php:624]
+---------------------------------------------------------------
+[ 2018-08-22T22:19:23+08:00 ] 0.0.0.0 GET /index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947563
+[ info ] yb.com/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1534947563 [运行时间：0.060660s][吞吐率：16.49req/s] [内存消耗：2,752.05kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001793s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://yb.com/index.php/admin/dashboard/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1534947563',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002987s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000158s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-22T22:19:25+08:00 ] 0.0.0.0 GET /index.php/admin/news/add?dialog=1
+[ info ] yb.com/index.php/admin/news/add?dialog=1 [运行时间：0.125613s][吞吐率：7.96req/s] [内存消耗：3,729.61kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004639s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004240s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005968s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004530s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001619s ]
+[ error ] [8]未定义变量: typeList[/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/runtime/temp/507e078216b3a72cc3e509af7b145fc1.php:60]
+---------------------------------------------------------------
+[ 2018-08-22T23:08:32+08:00 ] 0.0.0.0 GET /index.php/admin/news/add?dialog=1
+[ info ] yb.com/index.php/admin/news/add?dialog=1 [运行时间：0.100828s][吞吐率：9.92req/s] [内存消耗：3,729.61kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002118s ]
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yb.com/index.php/admin/news?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=0c7a8a6738f49a58ab31b3d974749f6c; keeplogin=1%7C86400%7C1535024902%7C7e7dff45f9cfbfdc0e1d46722c754a2f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1534939399; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1534939399',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002588s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\common\controller\Backend->add[ /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000582s ] mysql:host=127.0.0.1;dbname=yb_cms_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003793s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008039s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001134s ]
+[ error ] [8]未定义变量: typeList[/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/runtime/temp/507e078216b3a72cc3e509af7b145fc1.php:60]
