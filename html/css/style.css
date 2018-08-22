@@ -1,0 +1,34 @@
+body {
+	/*margin: 0px;*/
+}
+ul,li{ padding:0;margin:0;list-style:none}
+a,.un,.un:link,.un:visited,.un:hover,.un:active{
+        text-decoration: none;
+        color:inherit;
+    }
+.navigator { display: inline-block; height: 65px; position: relative;}
+.navigator .logo { display: inline-block; background-color: #D8D8D8; width: 108px; height: 65px; position: absolute;}
+.navigator .navi_bar { display: inline-block; width: 1000px; height: 65px; position: absolute;}
+.navigator .navi_bar_item { display: inline-block; padding: 22px 18px;}
+.navigator .navi_bar_item:hover { background-color: #FF545A; display: inline-block; padding: 22px 18px;}
+.navigator .login { display: inline-block; width: 108px; height: 65px; position: absolute; padding: 22px 18px;}
+
+.slider { position: relative; margin: 0 auto;}
+.centered-btns_nav { position: absolute; top: 50%; z-index: 2; width: 38px; height: 61px; margin-top: -40px; line-height: 200px; background-image: url(../images/arrow.gif); overflow: hidden; opacity: .7;}
+.next { right: 0; background-position: right 0;}
+.centered-btns_nav:active { opacity: 1;}
+.centered-btns_tabs { margin-top: 15px; text-align: center; font-size: 0; list-style-type: none;}
+.centered-btns_tabs li { display: inline-block; margin: 0 3px; *display: inline; *zoom: 1;}
+.centered-btns_tabs a { display: inline-block; width: 9px; height: 9px; border-radius: 50%; line-height: 20px; background-color: rgba(0, 0, 0, .3); background-color: #ccc\9; overflow: hidden; *display: inline; *zoom: 1;}
+.centered-btns_tabs .centered-btns_here a { background-color: rgba(0, 0, 0, .8); background-color: #666\9;}
+
+.menu1 { display: inline-block; width: 284px; height: 40px; position: absolute; border: 1px #DDDFE5; border-bottom-style: solid;}
+.menu1 .menu1_item { display: inline-block; padding: 10px 12px; font-size: 14}
+.menu1 .menu1_item:hover { display: inline-block; padding: 10px 12px; font-size: 14; border: 2px #FF0101; border-bottom-style: solid;}
+
+.menu2 { display: inline-block; left: 764px; top: 1595px; width: 367px; height: 40px; position: absolute; border: 1px #DDDFE5; border-bottom-style: solid;}
+.menu2 .menu2_item { display: inline-block; padding: 10px 16px; font-size: 14}
+.menu2 .menu2_item:hover { display: inline-block; padding: 10px 16px; font-size: 14; border: 2px #FF0101; border-bottom-style: solid;}
+
+
+.foot { display: inline-block; width: 100%; height: 60px; position: absolute; background-color: #232C44; left: 0px; top: 6340px;}
