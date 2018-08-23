@@ -46,6 +46,44 @@ $newsList = $this->model->getnewList();
         }
         return $this->view->fetch();
     }
+    public function add()
+    {
+        if ($this->request->isAjax())
+        {
+            if ($this->request->isPost()) {
+                $params = $this->request->post("row/a");
+                if ($params) {
+                    if ($this->dataLimit && $this->dataLimitFieldAutoFill) {
+                        $params[$this->dataLimitField] = $this->auth->id;
+                    }
+                    try {
+                        //是否采用模型验证
+                        if ($this->modelValidate) {
+                            $name = str_replace("\\model\\", "\\validate\\", get_class($this->model));
+                            $validate = is_bool($this->modelValidate) ? ($this->modelSceneValidate ? $name . '.add' : true) : $this->modelValidate;
+                            $this->model->validate($validate);
+                        }
+                        $News=new \app\common\model\News();
+                        $News->table("Yb_cms_db");
+                        $result = $News->table("cms_article")->insert($params);
+                        if ($result !== false) {
+                            $this->success();
+                        } else {
+                            $this->error($this->model->getError());
+                        }
+                    } catch (\think\exception\PDOException $e) {
+                        $this->error($e->getMessage());
+                    } catch (\think\Exception $e)
+
+                    {
+                        $this->error($e->getMessage());
+                    }
+                }
+                $this->error(__('Parameter %s can not be empty', ''));
+            }
+        }
+        return $this->view->fetch();
+    }
 
     /**
      * Selectpage搜索
@@ -55,6 +93,7 @@ $newsList = $this->model->getnewList();
     public function selectpage()
     {
         return parent::selectpage();
+
     }
 
 }

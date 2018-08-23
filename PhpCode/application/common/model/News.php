@@ -17,8 +17,7 @@ class News Extends Model
     protected $updateTime = 'updatetime';
     // 追加属性
     protected $append = [
-        'type_text',
-        'flag_text',
+
     ];
     protected function initialize()
     {
