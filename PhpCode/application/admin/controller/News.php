@@ -20,6 +20,7 @@ class News extends Backend
      */
     protected $model = null;
     protected $newslist = [];
+    protected $rulelist = [];
     protected $noNeedRight = ['selectpage'];
 
     public function _initialize()
@@ -52,6 +53,9 @@ $newsList = $this->model->getnewList();
         {
             if ($this->request->isPost()) {
                 $params = $this->request->post("row/a");
+                $categoryids=$params['categoryids'];
+                unset($params['categoryids']);
+                //print_r($params);die;
                 if ($params) {
                     if ($this->dataLimit && $this->dataLimitFieldAutoFill) {
                         $params[$this->dataLimitField] = $this->auth->id;
@@ -65,8 +69,15 @@ $newsList = $this->model->getnewList();
                         }
                         $News=new \app\common\model\News();
                         $News->table("Yb_cms_db");
-                        $result = $News->table("cms_article")->insert($params);
+                        $result = $News->table("cms_article")->insertGetId($params);
                         if ($result !== false) {
+                            $articleid=$result;
+                            $ids=explode(",",$categoryids);
+                            foreach($ids as $kk=>$vv){
+                                $data['categoryid']=$vv;
+                                $data['articleid']=$articleid;
+                                $News->table("cms_article2category")->insert($data);
+                            }
                             $this->success();
                         } else {
                             $this->error($this->model->getError());
@@ -82,6 +93,37 @@ $newsList = $this->model->getnewList();
                 $this->error(__('Parameter %s can not be empty', ''));
             }
         }
+        $this->model = model('Category');
+        // 必须将结果集转换为数组
+        $ruleList = collection($this->model->order('id', 'desc')->select())->toArray();
+        foreach ($ruleList as $k => &$v)
+        {
+            $v['title'] = __($v['name']);
+            if($v['pid']==0){
+                $v['disabled']="true";
+            }
+        }
+        unset($v);
+        Tree::instance()->init($ruleList);
+        $this->rulelist = Tree::instance()->getTreeList(Tree::instance()->getTreeArray(0), 'title');
+        foreach ($this->rulelist as $k => &$v)
+        {
+
+            $ruledata[$v['id']] = $v['title'];
+        }
+        $ruleList = collection($this->model->order('id', 'desc')->select())->toArray();
+        $nodeList = [];
+        foreach ($ruleList as $k => $v)
+        {
+            $selected = [];
+            $state = array('selected' => false ? false : in_array($v['id'], $selected));
+            $nodeList[] = array('id' => $v['id'], 'parent' => $v['pid'] ? $v['pid'] : '#', 'text' => __($v['name']), 'type' => 'menu', 'state' => $state);
+        }
+        Tree::instance()->init($nodeList);
+        $this->assign("nodeList", $nodeList);
+        $this->view->assign('ruledata', $ruledata);
+        $this->view->assign("statusList", ['normal' => "Normal", 'hidden' => false]);
+        // 必须将结果集转换为数组
         return $this->view->fetch();
     }
 

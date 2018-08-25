@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html";i:1535031449;s:87:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/layout/default.html";i:1533742466;s:84:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/meta.html";i:1533742466;s:86:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/script.html";i:1533742466;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html";i:1535201266;s:87:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/layout/default.html";i:1533742466;s:84:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/meta.html";i:1533742466;s:86:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/script.html";i:1533742466;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -51,7 +51,7 @@
                             <?php endif; ?>
                             <div class="content">
                                 <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
-
+    <input type="hidden" name="row[categoryids]" />
     <!--div class="form-group">
         <label for="c-type" class="control-label col-xs-12 col-sm-2"><?php echo __('Type'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
@@ -76,10 +76,34 @@
             <input id="c-name"  class="form-control" name="row[writer]" type="text" value="">
         </div>
     </div>
+
+    <div class="form-group">
+        <label for="nickname" class="control-label col-xs-12 col-sm-2">分类:</label>
+        <div class="col-xs-12 col-sm-8">
+            <span class="text-muted"><input type="checkbox" name="" id="checkall" /> <label for="checkall"><small><?php echo __('Check all'); ?></small></label></span>
+            <span class="text-muted"><input type="checkbox" name="" id="expandall" /> <label for="expandall"><small><?php echo __('Expand all'); ?></small></label></span>
+            <div id="treeview"></div>
+        </div>
+    </div>
+
     <div class="form-group">
         <label for="c-name" class="control-label col-xs-12 col-sm-2">sn:</label>
         <div class="col-xs-12 col-sm-8">
             <input id="c-name" data-rule="required" class="form-control" name="row[sn]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-image" class="control-label col-xs-12 col-sm-2"><?php echo __('Image'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-image" class="form-control" size="50" name="row[cover_img]" type="text" value="">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-image" class="btn btn-danger plupload" data-input-id="c-image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-image"><i class="fa fa-upload"></i> <?php echo __('Upload'); ?></button></span>
+                    <span><button type="button" id="fachoose-image" class="btn btn-primary fachoose" data-input-id="c-image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> <?php echo __('Choose'); ?></button></span>
+                </div>
+                <span class="msg-box n-right"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-image"></ul>
         </div>
     </div>
     <div class="form-group">
@@ -102,7 +126,10 @@
         </div>
     </div>
 </form>
-
+<script>
+    console.log(<?php echo json_encode($nodeList);; ?>);
+    var nodeData = <?php echo json_encode($nodeList);; ?>;
+</script>
                             </div>
                         </div>
                     </div>
