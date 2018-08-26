@@ -32,22 +32,33 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function (
 
 
             var table = $("#table");
+            table.on('post-body.bs.table', function (e, json) {
+                $("tbody tr[data-index]", this).each(function () {
+                    if (parseInt($("td:eq(1)", this).text())) {
+                        $("input[type=checkbox]", this).prop("disabled", true);
+                    }
+                });
+            });
             var tableOptions = {
                 url: $.fn.bootstrapTable.defaults.extend.index_url,
                 escape: false,
                 pk: 'id',
-                sortName: 'weigh',
-                pagination: false,
+                sortName: 'id',
+                pagination: true,
                 commonSearch: false,
                 columns: [
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
-                        {field: 'sn', title: __('sn')},
                         {field: 'title', title: __('title'), align: 'left'},
-                         {field: 'status', title: __('Status'), operate: false, formatter: Table.api.formatter.status},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
-                    ]
+                        {field: 'abstract', title: __('abstract'), align: 'left'},
+                        {field: 'writer', title: __('writer'), align: 'left'},
+                        {field: 'sn', title: __('sn')},
+                        {field: 'cover_img', title: __('cover_img'), align: 'left', formatter: Table.api.formatter.image},
+                        {field: 'status', title: __('status'), operate: false, formatter: Table.api.formatter.status},
+                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: function (value, row, index) {
+                            return Table.api.formatter.operate.call(this, value, row, index);
+                        }}]
                 ]
             };
             // 初始化表格
@@ -88,12 +99,15 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function (
                 Controller.api.rendertree(nodeData);
                 //全选和展开
                 $(document).on("click", "#checkall", function () {
+                    console.log($(this));
                     $("#treeview").jstree($(this).prop("checked") ? "check_all" : "uncheck_all");
                 });
                 $(document).on("click", "#expandall", function () {
                     $("#treeview").jstree($(this).prop("checked") ? "open_all" : "close_all");
                 });
-                //$("select[name='row[categoryid]']").trigger("change");
+                $("select[name='row[categoryids]']").trigger("change");
+                $("#treeview").jstree(true).select_node('0_anchor');;
+                selected();
             },
             rendertree: function (content) {
                 $("#treeview")
@@ -121,9 +135,15 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function (
                             'check_callback': true,
                             "data": content
                         }
-                    });
-            }
-        }
+                    }).on("ready.jstree", function (event, data) {
+                    selected();
+
+                });;
+            },
+
+        },
+
     };
+
     return Controller;
 });

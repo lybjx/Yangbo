@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html";i:1535201266;s:87:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/layout/default.html";i:1533742466;s:84:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/meta.html";i:1533742466;s:86:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/script.html";i:1533742466;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html";i:1535254666;s:87:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/layout/default.html";i:1533742466;s:84:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/meta.html";i:1533742466;s:86:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/script.html";i:1533742466;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -110,6 +110,12 @@
         <label for="c-name" class="control-label col-xs-12 col-sm-2">相关链接:</label>
         <div class="col-xs-12 col-sm-8">
             <input id="c-name"  class="form-control" name="row[link]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-name" class="control-label col-xs-12 col-sm-2">简介:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name"  class="form-control" name="row[abstract]" type="text" value="">
         </div>
     </div>
     <div class="form-group">
