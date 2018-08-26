@@ -46,7 +46,6 @@ $(function() {
 		slidesToShow: 3,
 		autoplay: true
 	});
-	$('.media_play_button').css({display:none});
 	// $('#dowebok').responsiveSlides({
 	// 	pager: true,
 	// 	nav: true,
