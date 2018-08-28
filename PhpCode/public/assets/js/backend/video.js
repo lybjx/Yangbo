@@ -1,32 +1,18 @@
 define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function ($, undefined, Backend, Table, Form,undefined) {
 //读取选中的条目
-    $.jstree.core.prototype.get_all_checked = function (full) {
-        var obj = this.get_selected(), i, j;
-        for (i = 0, j = obj.length; i < j; i++) {
-            obj = obj.concat(this.get_node(obj[i]).parents);
-        }
-        obj = $.grep(obj, function (v, i, a) {
-            return v != '#';
-        });
-        obj = obj.filter(function (itm, i, a) {
-            return i == a.indexOf(itm);
-        });
-        return full ? $.map(obj, $.proxy(function (i) {
-            return this.get_node(i);
-        }, this)) : obj;
-    };
+
     var Controller = {
         index: function () {
             // 初始化表格参数配置
             Table.api.init({
                 extend: {
-                    index_url: 'news/index',
-                    add_url: 'news/add',
-                    edit_url: 'news/edit',
-                    del_url: 'news/del',
-                    multi_url: 'news/multi',
+                    index_url: 'video/index',
+                    add_url: 'video/add',
+                    edit_url: 'video/edit',
+                    del_url: 'video/del',
+                    multi_url: 'video/multi',
                     dragsort_url: 'ajax/weigh',
-                    table: 'cms_article',
+                    table: 'cms_video',
                 }
             });
 
@@ -95,51 +81,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function (
                     }
                     return true;
                 });
-                $("#treeview").jstree("destroy");
-                Controller.api.rendertree(nodeData);
-                //全选和展开
-                $(document).on("click", "#checkall", function () {
-                    console.log($(this));
-                    $("#treeview").jstree($(this).prop("checked") ? "check_all" : "uncheck_all");
-                });
-                $(document).on("click", "#expandall", function () {
-                    $("#treeview").jstree($(this).prop("checked") ? "open_all" : "close_all");
-                });
-                $("select[name='row[categoryids]']").trigger("change");
-                $("#treeview").jstree(true).select_node('0_anchor');;
-                selected();
-            },
-            rendertree: function (content) {
-                $("#treeview")
-                    .on('redraw.jstree', function (e) {
-                        $(".layer-footer").attr("domrefresh", Math.random());
-                    })
-                    .jstree({
-                        "themes": {"stripes": true},
-                        "checkbox": {
-                            "keep_selected_style": false,
-                        },
-                        "types": {
-                            "root": {
-                                "icon": "fa fa-folder-open",
-                            },
-                            "menu": {
-                                "icon": "fa fa-folder-open",
-                            },
-                            "file": {
-                                "icon": "fa fa-file-o",
-                            }
-                        },
-                        "plugins": ["checkbox", "types"],
-                        "core": {
-                            'check_callback': true,
-                            "data": content
-                        }
-                    }).on("ready.jstree", function (event, data) {
-                    selected();
 
-                });;
             },
+
 
         },
 

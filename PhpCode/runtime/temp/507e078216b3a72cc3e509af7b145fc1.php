@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html";i:1535254666;s:87:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/layout/default.html";i:1533742466;s:84:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/meta.html";i:1533742466;s:86:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/script.html";i:1533742466;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/public/../application/admin/view/news/add.html";i:1535462727;s:87:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/layout/default.html";i:1533742466;s:84:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/meta.html";i:1533742466;s:86:"/Users/lybjx/PhpstormProjects/Yangbo/PhpCode/application/admin/view/common/script.html";i:1533742466;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -135,6 +135,9 @@
 <script>
     console.log(<?php echo json_encode($nodeList);; ?>);
     var nodeData = <?php echo json_encode($nodeList);; ?>;
+    function selected(){
+
+    }
 </script>
                             </div>
                         </div>

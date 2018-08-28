@@ -18,21 +18,8 @@
             <input id="c-name" data-rule="required" class="form-control" name="row[title]" type="text" value="">
         </div>
     </div>
-    <div class="form-group">
-        <label for="c-name" class="control-label col-xs-12 col-sm-2">作者:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-name"  class="form-control" name="row[writer]" type="text" value="">
-        </div>
-    </div>
 
-    <div class="form-group">
-        <label for="nickname" class="control-label col-xs-12 col-sm-2">分类:</label>
-        <div class="col-xs-12 col-sm-8">
-            <span class="text-muted"><input type="checkbox" name="" id="checkall" /> <label for="checkall"><small>{:__('Check all')}</small></label></span>
-            <span class="text-muted"><input type="checkbox" name="" id="expandall" /> <label for="expandall"><small>{:__('Expand all')}</small></label></span>
-            <div id="treeview"></div>
-        </div>
-    </div>
+
 
     <div class="form-group">
         <label for="c-name" class="control-label col-xs-12 col-sm-2">sn:</label>
@@ -41,13 +28,14 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="c-image" class="control-label col-xs-12 col-sm-2">{:__('Image')}:</label>
+        <label for="c-image" class="control-label col-xs-12 col-sm-2">{:__('video')}:</label>
         <div class="col-xs-12 col-sm-8">
             <div class="input-group">
-                <input id="c-image" class="form-control" size="50" name="row[cover_img]" type="text" value="">
+                <input id="c-image" class="form-control" size="50" name="row[url]" type="text" value="">
                 <div class="input-group-addon no-border no-padding">
-                    <span><button type="button" id="plupload-image" class="btn btn-danger plupload" data-input-id="c-image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
-                    <span><button type="button" id="fachoose-image" class="btn btn-primary fachoose" data-input-id="c-image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                    <span><input type="file"/><i class="fa fa-upload"></i> 选择</button></span>
+
+                    <span><button type="button" id="upload-video" class="btn btn-danger upload" ><i class="fa"></i> 上传</button></span>
                 </div>
                 <span class="msg-box n-right"></span>
             </div>
@@ -83,4 +71,11 @@
 <script>
     console.log({:json_encode($nodeList); });
     var nodeData = {:json_encode($nodeList); };
+</script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js">
+</script>
+<script type="text/javascript" src='https://unpkg.com/qiniu-js@2.5.1/dist/qiniu.min.js'></script>
+<script>
+    var observable = qiniu.upload(file, key, token, putExtra, config)
+    var subscription = observable.subscribe(observer) // 上传开始
 </script>

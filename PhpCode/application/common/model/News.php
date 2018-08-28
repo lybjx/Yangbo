@@ -35,7 +35,10 @@ function getnewList($status=1){
     $newsList =News::get(['status' => '1'])->select();
     return $newsList;
 }
-
+    function getvideoList($status=1){
+        $newsList =$this->table("cms_video")->get(['status' => '1'])->select();
+        return $newsList;
+    }
 
 
 

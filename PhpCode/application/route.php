@@ -17,6 +17,7 @@ return [
     //变量规则
     '__pattern__' => [
     ],
+    ':ksn'=>'index/Index/newsdetail' ,
 //        域名绑定到模块
 //        '__domain__'  => [
 //            'admin' => 'admin',

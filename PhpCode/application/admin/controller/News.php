@@ -267,4 +267,34 @@ $newsList = $this->model->getnewList();
                 }
                 $this->error(__('Parameter %s can not be empty', ''));
     }
+    public function videolist()
+    {
+        if ($this->request->isAjax())
+        {
+            $newsList = $this->model->getvideoList();
+            //$this->assign('newsList',$newsList);
+            $total = count($newsList);
+            $result = array("total" => $total, "rows" => $newsList);
+
+            list($where, $sort, $order, $offset, $limit) = $this->buildparams();
+            $this->model=model('News');
+            $total = $this->model->table("cms_article")
+                ->where($where)
+                ->order("id", $order)
+                ->count();
+
+            $list = $this->model->table("cms_article")
+                ->where($where)
+                ->order("id", $order)
+                ->limit($offset, $limit)
+                ->select();
+
+            unset($v);
+            $result = array("total" => $total, "rows" => $list);
+
+            return json($result);
+
+        }
+        return $this->view->fetch();
+    }
 }
