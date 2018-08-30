@@ -17,7 +17,8 @@ return [
     //变量规则
     '__pattern__' => [
     ],
-    ':ksn'=>'index/Index/newsdetail' ,
+    '/article/:ksn'=>'index/Index/newsdetail' ,
+    '?:c_:page'=>'index/Index/newslist' ,
 //        域名绑定到模块
 //        '__domain__'  => [
 //            'admin' => 'admin',

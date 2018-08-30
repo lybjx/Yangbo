@@ -4,6 +4,10 @@ namespace app\index\controller;
 
 use app\common\controller\Frontend;
 use app\common\library\Token;
+use think\Request;
+use qiniu;
+require '../vendor/qiniu/autoload.php';
+use Qiniu\Auth;
 
 class Index extends Frontend
 {
@@ -28,6 +32,9 @@ class Index extends Frontend
         return jsonp(['newslist' => $newslist, 'new' => count($newslist), 'url' => 'https://www.fastadmin.net?ref=news']);
     }
     public function newslist($cid,$count=4, $page= 1){
+         if(!$this->request->isGet()){
+echo 1;
+         }
         $where="status=1 and ";
         $this->model=model('News');
         $result= $this->model->table("cms_article2category")->alias('a')
@@ -42,5 +49,16 @@ class Index extends Frontend
         $this->model=model('News');
         $result= $this->model->table("cms_article")->where(["sn" =>$sn])->find();
             return $result;
+    }
+    public function qiniutoken(){
+    //$qiniu=new \qiniu\Qiniu();
+        $accessKey = 'syMHnod92WmgKAy2_IQ_F5GU8eIgNOUo88u1cn83';
+        $secretKey = 'IAz20o14p1RlIt2-8TCBiLUGqzQd4Z9_LpIHlizT';
+        // 初始化签权对象
+        $auth = new Auth($accessKey, $secretKey);
+        $bucket = 'yangbo';
+// 生成上传Token
+        $token = $auth->uploadToken($bucket);
+        return $token;
     }
 }

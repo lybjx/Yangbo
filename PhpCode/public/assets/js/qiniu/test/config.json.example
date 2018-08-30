@@ -1,8 +1,8 @@
 {
-    "AccessKey": "<Your Access Key>",  // https://portal.qiniu.com/user/key
-    "SecretKey": "<Your Secret Key>",
-    "Bucket": "<Your Bucket Name>",
+    "AccessKey": "syMHnod92WmgKAy2_IQ_F5GU8eIgNOUo88u1cn83",  // https://portal.qiniu.com/user/key
+    "SecretKey": "IAz20o14p1RlIt2-8TCBiLUGqzQd4Z9_LpIHlizT",
+    "Bucket": "yangbo",
     "Port": 9000,
     "UptokenUrl": "uptoken",
-    "Domain": "<Your Bucket Domain>" // bucket domain eg:http://qiniu-plupload.qiniudn.com/
+    "Domain": "pe4grbvsy.bkt.clouddn.com" // bucket domain eg:http://qiniu-plupload.qiniudn.com/
 }

@@ -2,6 +2,7 @@ body {
 	/*margin: 0px;*/
 }
 ul,li{ padding:0;margin:0;list-style:none}
+
 a,.un,.un:link,.un:visited,.un:hover,.un:active{
         text-decoration: none;
         color:inherit;
@@ -43,5 +44,109 @@ a,.un,.un:link,.un:visited,.un:hover,.un:active{
 .menu2 .menu2_item { display: inline-block; padding: 10px 16px; font-size: 14}
 .menu2 .menu2_item:hover { display: inline-block; padding: 10px 16px; font-size: 14; border: 2px #FF0101; border-bottom-style: solid;}
 
+.student_content { display: block; position: absolute; }
+.student_content_card { display: block; width: 227px; height: 257px; position: absolute; border-radius: 4px; background-color: #FFFFFF; }
+.student_content_card:hover { border: 1px solid #DDDDDD; box-shadow: 1px 1px 1px #BBBBBB; }
+#card01 { left: 0px; top: 0px; }
+#card02 { left: 243px; top: 0px; }
+#card03 { left: 487px; top: 0px; }
+#card04 { left: 730px; top: 0px; }
+#card05 { left: 973px; top: 0px; }
+#card06 { left: 0px; top: 277px; }
+#card07 { left: 243px; top: 277px; }
+#card08 { left: 487px; top: 277px; }
+#card09 { left: 730px; top: 277px; }
+#card10 { left: 973px; top: 277px; }
+.card_content { position: relative; width: 227px; height: 257px; }
+.card_content img { width: 227px; height: 170px; }
+.card_content_title { position: absolute; font-size: 14px; color: #333333; left: 10px; top: 181px;}
+.card_content_abstract { position: absolute; font-size: 12px; color: #999999; left: 10px; top: 205px; max-width: 207px; max-height: 50px; text-overflow: ellipsis; }
+.student_content_more { position: absolute; margin: 0 auto; width: 128px; height: 48px; border: 1px solid #FF0101; border-radius: 4px; background-color: white; color: #FF0101;}
+
+.announce_content { display: block; position: absolute; }
+.announce_content_wrap { display: block; position: relative; width: 291px; height: 640px; border: 2px solid #D5D5D5; }
+.announce_content_left_head { display: block; position: absolute; width: 291px; height: 110px; background: #FF545A; }
+#announce_content_left_head_title { position: absolute; left: 20px; top: 25px; font-size: 40px; color: #FFFFFF; }
+#announce_content_left_head_english { position: absolute; left: 20px; top: 71px; font-size: 14px; color: #FFFFFF; }
+.announce_list { position: absolute; left: 32px; top: 130px; }
+.announce_list_item { margin-bottom: 20px; list-style-type : disc ! important; }
+.announce_list_item:hover { color: #FF545A; }
+.announce_list_item span { display: block; font-size: 14px; color: #333333; width: 249px; height: 16px; text-overflow: ellipsis; overflow: hidden; }
+.announce_list_item:hover span { color: #FF545A; }
+.announce_list_more { display: inline-block; line-height: 54px; position: absolute; width: 291px; height: 54px; text-align: center; background-color: #EEEEEE; left: 0px; bottom: 0px; vertical-align: middle; font-size: 14px; color: #FF545A; }
+.announce_card_area { display: block; position: absolute; left: 310px; top: 0px; width: 890px; }
+.announce_card_wrap { display: block; position: relative; width: 100% }
+.announce_card { display: block; position: absolute; width: 100%; height: 199px; }
+.announce_card:hover { border: 2px solid #D5D5D5; box-shadow: 0 3px 4px 0 rgba(186,186,186,0.50); }
+#cardA01 { left: 0px; top: 0px; }
+#cardA02 { left: 0px; top: 224px; }
+#cardA03 { left: 0px; top: 448px; }
+.announce_card_content { display: block; position: relative; width: 100%; height: 100% }
+.announce_card_content img { position: absolute; left: 1px; top: 1px; width: 290px; height: 195px; }
+.announce_card_title { position: absolute; left: 311px; top: 21px; font-size: 16px; color: #333333; max-width: 563px; height: 18px; overflow: hidden; }
+.announce_card_abstract { position: absolute; left: 311px; top: 54px; font-size: 12px; color: #333333; max-width: 563px; max-height: 135px; overflow: hidden; }
+
+.enrolment_content { display: block; position: absolute; width: 1920px; height: 800px; overflow: hidden; }
+.enrolment_content_wrap { display: block; position: relative; }
+.enrolment_content_title { position: absolute; left: 461px; top: 61px; font-size: 48px; color: #FFFFFF; }
+.enrolment_content_english { position: absolute; left: 461px; top: 130px; font-size: 36px; color: #FFFFFF; }
+.enrolment_content_area { display: block; position: absolute; left: 0px; top: 249px; width: 1358px; height: 466px; opacity: 0.8; background: #FFFFFF; }
+.enrolment_content_list { position: absolute; left: 360px; top: 60px; width: 897px; max-height: 257px; }
+.enrolment_content_list_item { margin-bottom: 35px; list-style-type : disc ! important; }
+.enrolment_content_list_item_content { position: relative; width: 897px; }
+.enrolment_content_list_item label { font-size: 16px; color: #333333; }
+.enrolment_content_list_item span { position: absolute; left: 0px; top: 24px; width: 897px ; font-size: 12px; color: #151515; }
+
+.media_center_title { position: absolute; font-size: 48px; color: #333333 }
+.media_center_english { position: absolute; font-size: 36px; color: #333333;}
+.media_content { display: block; position: absolute; }
+.media_slide { display: block; width: 1200px; }
+.media_slide_card { display: block; position: relative; width: 391px; height: 329px; }
+.media_slide_card:hover { border: 1px solid #DDDDDD; box-shadow: 1px 1px 1px #BBBBBB; }
+.media_slide_card_image { position: absolute; left: 0px; top: 0px; width: 391px; height: 219px; overflow: hidden; }
+.media_slide_card_image img { width: 391px; }
+.media_slide_card_title { position: absolute; left: 20px; top: 243px; font-size: 14px; color: #333333;}
+.media_slide_card_desc { position: absolute; left: 20px; top: 269px; font-size: 12px; color: #999999; max-width: 350px }
+.media_slide li { width: 391px; margin-left: 7px; }
+.media_content_more { position: absolute; margin: 0 auto; width: 128px; height: 48px; border: 1px solid #FF0101; border-radius: 4px; background-color: white; color: #FF0101;}
+.media_play_button { position: absolute; width: 52px; height: 52px; left: 170px; top: 84px; }
+.media_slide_card:hover .media_play_button { display: block ! important; }
+
+.home_title { position: absolute; font-size: 48px; color: #333333 }
+.home_english { position: absolute; font-size: 36px; color: #333333;}
+.home_content { display: block; position: absolute; }
+.home_content_wrap { position: relative; }
+.home_card { display: block; position: absolute; width: 594px; height: 153px; }
+.home_card:hover { border: 1px solid #DDDDDD; box-shadow: 1px 1px 1px #BBBBBB; }
+#cardB01 { left: 0px; top: 0px; }
+#cardB02 { left: 0px; top: 153px; }
+#cardB03 { left: 0px; top: 306px; }
+#cardB04 { left: 0px; top: 459px; }
+#cardB05 { left: 618px; top: 0px; }
+#cardB06 { left: 618px; top: 153px; }
+#cardB07 { left: 618px; top: 306px; }
+#cardB08 { left: 618px; top: 469px; }
+.home_card_content { display: block; position: relative; width: 594px; height: 153px; }
+.home_card_content_image { position: absolute; left: 20px; top: 11px; width: 170px; height: 132px; overflow: hidden; }
+.home_card_content img { height: 132px; }
+.home_card_content_title { position: absolute; left: 202px; top: 22px; width: 380px; font-size: 18px; color: #333333; }
+.home_card_content_abstract { position: absolute; left: 202px; top: 52px; width: 380px; font-size: 14px; color: #666666; }
+.home_card_content_date { position: absolute; left: 202px; top: 112px; width: 380px; font-size: 12px; color: #999999; }
+.home_content_more { position: absolute; margin: 0 auto; width: 128px; height: 48px; border: 1px solid #FF0101; border-radius: 4px; background-color: white; color: #FF0101;}
+
+.site_map_content { position: absolute; left: 0px; top: 5854px; background: #FB565C; }
+.site_map_image { position: absolute; left: 287px; width: 70%; opacity: 0.07; }
+.site_map_announce_title { position: absolute; left: 360px; top: 101px; font-size: 18px; color: #FFFFFF; }
+.site_map_announce_list { position: absolute; left: 360px; top: 159px; font-size: 14px; color: #FFFFFF; }
+.site_map_announce_list li { margin-bottom: 20px; max-width: 419px; }
+.site_map_link_title { position: absolute; left: 864px; top: 101px; font-size: 18px; color: #FFFFFF; }
+.site_map_link_list { position: absolute; left: 864px; top: 159px; font-size: 14px; color: #FFFFFF; }
+.site_map_link_list li { margin-bottom: 20px; max-width: 419px; }
+.site_map_link_list li span { margin-right: 20px; }
+.site_map_contact_title { position: absolute; left: 1351px; top: 101px; font-size: 18px; color: #FFFFFF; }
+.site_map_contact_list { position: absolute; left: 1351px; top: 159px; font-size: 14px; color: #FFFFFF; }
+.site_map_contact_list li { margin-bottom: 20px; max-width: 419px; }
+.qrcode { position: absolute; left: 1351px; bottom: 50px; width: 120px; height: 120px; background-color: #FFFFFF; }
 
 .foot { display: inline-block; width: 100%; height: 60px; position: absolute; background-color: #232C44; left: 0px; top: 6340px;}
+.foot_text { position: absolute; left: 0px; top: 19px; width: 100%; text-align: center; font-size: 16px; color: #FFFFFF; }

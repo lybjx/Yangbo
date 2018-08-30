@@ -70,8 +70,7 @@ class Video extends Backend
         {
             if ($this->request->isPost()) {
                 $params = $this->request->post("row/a");
-                $categoryids=$params['categoryids'];
-                unset($params['categoryids']);
+                unset($params['url1']);
                 //print_r($params);die;
                 if ($params) {
                     if ($this->dataLimit && $this->dataLimitFieldAutoFill) {
@@ -86,15 +85,9 @@ class Video extends Backend
                         }
                         $News=new \app\common\model\News();
                         $News->table("Yb_cms_db");
-                        $result = $News->table("cms_article")->insertGetId($params);
+                        $result = $News->table("cms_video")->insertGetId($params);
                         if ($result !== false) {
-                            $articleid=$result;
-                            $ids=explode(",",$categoryids);
-                            foreach($ids as $kk=>$vv){
-                                $data['categoryid']=$vv;
-                                $data['articleid']=$articleid;
-                                $News->table("cms_article2category")->insert($data);
-                            }
+
                             $this->success();
                         } else {
                             $this->error($this->model->getError());
@@ -160,8 +153,8 @@ class Video extends Backend
         {
             if ($this->request->isPost()) {
                 $params = $this->request->post("row/a");
-                $categoryids=$params['categoryids'];
-                unset($params['categoryids']);
+                //$categoryids=$params['categoryids'];
+                unset($params['url1']);
                 //print_r($params);die;
                 if ($params) {
                     if ($this->dataLimit && $this->dataLimitFieldAutoFill) {
@@ -176,15 +169,9 @@ class Video extends Backend
                         }
                         $News=new \app\common\model\News();
                         $News->table("Yb_cms_db");
-                        $result = $News->table("cms_article")->update($params);
+                        $result = $News->table("cms_video")->update($params);
                         if ($result !== false) {
-                            $articleid=$ids;
-                            $ids=explode(",",$categoryids);
-                            foreach($ids as $kk=>$vv){
-                                $data['categoryid']=$vv;
-                                $data['articleid']=$articleid;
-                                $News->table("cms_article2category")->insert($data);
-                            }
+
                             $this->success();
                         } else {
                             $this->error($this->model->getError());
@@ -227,22 +214,10 @@ class Video extends Backend
             $nodeList[] = array('id' => $v['id'], 'parent' => $v['pid'] ? $v['pid'] : '#', 'text' => __($v['name']), 'type' => 'menu', 'state' => $state);
         }
         $this->model=model('News');
-        $articledetail = $this->model->get(['id' => $ids]);
-        $News=new \app\common\model\News();
-        $cids=collection($News->table("cms_article2category")->where("articleid=".$ids)->select())->toArray();
-        $selectcids="";
-        foreach($cids as $kk=>$vv){
-            $selectcids.=$vv['categoryid'].",";
-        }
-        $selectcids= substr($selectcids,0,strlen($selectcids)-1);
-        //print_r($cids);die;
-        Tree::instance()->init($nodeList);
-        $this->assign("nodeList", $nodeList);
-        $this->view->assign('ruledata', $ruledata);
+        $articledetail = $this->model->table("cms_video")->where(['id' => $ids])->find();
+
         $this->assign('detail', $articledetail);
-        $this->assign('selectcids',$selectcids);
-        //print_r($articledetail);die;
-        $this->view->assign("statusList", ['normal' => "Normal", 'hidden' => false]);
+         $this->view->assign("statusList", ['normal' => "Normal", 'hidden' => false]);
         // 必须将结果集转换为数组
         return $this->view->fetch();
     }
@@ -252,10 +227,9 @@ class Video extends Backend
         {
             try {
                 $News=new \app\common\model\News();
-                $result = $News->table("cms_article")->where("id=".$ids)->delete();
-                $re=$News->table("cms_article2category")->where("articleid=".$ids)->delete();
+                $result = $News->table("cms_video")->where("id=".$ids)->delete();
 
-                $this->error();
+                $this->success();
 
             } catch (\think\exception\PDOException $e) {
                 $this->error($e->getMessage());

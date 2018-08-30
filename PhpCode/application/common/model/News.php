@@ -36,7 +36,7 @@ function getnewList($status=1){
     return $newsList;
 }
     function getvideoList($status=1){
-        $newsList =$this->table("cms_video")->get(['status' => '1'])->select();
+        $newsList =$this->table("cms_video")->where(['status' => '1'])->select();
         return $newsList;
     }
 

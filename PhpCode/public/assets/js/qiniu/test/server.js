@@ -8,7 +8,15 @@ app.use(express.static(__dirname + "/"));
 var multiparty = require("multiparty");
 
 var fs=require('fs');
-var config=JSON.parse(fs.readFileSync(path.resolve(__dirname,"config.json")));
+var jsin={
+  "AccessKey": "syMHnod92WmgKAy2_IQ_F5GU8eIgNOUo88u1cn83",  // https://portal.qiniu.com/user/key
+  "SecretKey": "IAz20o14p1RlIt2-8TCBiLUGqzQd4Z9_LpIHlizT",
+  "Bucket": "yangbo",
+  "Port": 9000,
+  "UptokenUrl": "uptoken",
+  "Domain": "pe4grbvsy.bkt.clouddn.com" // bucket domain eg:http://qiniu-plupload.qiniudn.com/
+};
+var config=JSON.parse(jsin);
 
 var mac = new qiniu.auth.digest.Mac(config.AccessKey, config.SecretKey);
 var config2 = new qiniu.conf.Config();
@@ -17,7 +25,7 @@ config2.zone = qiniu.zone.Zone_z2;
 var formUploader = new qiniu.form_up.FormUploader(config2);
 var putExtra = new qiniu.form_up.PutExtra();
 var options = {
-  scope: config.Bucket,
+  scope: "yangbo",
   deleteAfterDays: 1,
   returnBody:
     '{"key":"$(key)","hash":"$(etag)","fsize":$(fsize),"bucket":"$(bucket)","name":"$(x:name)"}'

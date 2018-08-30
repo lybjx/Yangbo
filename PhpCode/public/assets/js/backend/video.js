@@ -37,10 +37,10 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function (
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
                         {field: 'title', title: __('title'), align: 'left'},
-                        {field: 'abstract', title: __('abstract'), align: 'left'},
-                        {field: 'writer', title: __('writer'), align: 'left'},
+                        {field: 'description', title: __('description'), align: 'left'},
+                        {field: 'url', title: __('url'), align: 'left'},
                         {field: 'sn', title: __('sn')},
-                        {field: 'cover_img', title: __('cover_img'), align: 'left', formatter: Table.api.formatter.image},
+                        {field: 'remark', title: __('remark'), align: 'left', formatter: Table.api.formatter.image},
                         {field: 'status', title: __('status'), operate: false, formatter: Table.api.formatter.status},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: function (value, row, index) {
                             return Table.api.formatter.operate.call(this, value, row, index);

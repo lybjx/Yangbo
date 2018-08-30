@@ -2,10 +2,10 @@ var BLOCK_SIZE = 4 * 1024 * 1024;
 
 function addUploadBoard(file, config, key, type) {
   var count = Math.ceil(file.size / BLOCK_SIZE);
-  var board = widget.add("tr", {
+  /*var board = widget.add("tr", {
     data: { num: count, name: key, size: file.size },
     node: $("#fsUploadProgress" + type)
-  });
+  });*/
   if (file.size > 100 * 1024 * 1024) {
     $(board).html("本实例最大上传文件100M");
     return "";
@@ -46,20 +46,7 @@ function getBoardWidth(board) {
 }
 
 function controlTabDisplay(type) {
-  switch (type) {
-    case "sdk":
-      document.getElementById("box2").className = "";
-      document.getElementById("box").className = "hide";
-      break;
-    case "others":
-      document.getElementById("box2").className = "hide";
-      document.getElementById("box").className = "";
-      break;
-    case "form":
-      document.getElementById("box").className = "hide";
-      document.getElementById("box2").className = "hide";
-      break;
-  }
+
 }
 
 var getRotate = function(url) {
