@@ -35,7 +35,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function (
             table.on('post-body.bs.table', function (e, json) {
                 $("tbody tr[data-index]", this).each(function () {
                     if (parseInt($("td:eq(1)", this).text())) {
-                        $("input[type=checkbox]", this).prop("disabled", true);
+                        $("input[type=checkbox]", this).prop("disabled", false);
                     }
                 });
             });

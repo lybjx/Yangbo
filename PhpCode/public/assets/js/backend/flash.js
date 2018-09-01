@@ -6,11 +6,11 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree'], function (
             // 初始化表格参数配置
             Table.api.init({
                 extend: {
-                    index_url: 'video/index',
-                    add_url: 'video/add',
-                    edit_url: 'video/edit',
-                    del_url: 'video/del',
-                    multi_url: 'video/multi',
+                    index_url: 'flash/index',
+                    add_url: 'flash/add',
+                    edit_url: 'flash/edit',
+                    del_url: 'flash/del',
+                    multi_url: 'flash/multi',
                     dragsort_url: 'ajax/weigh',
                     table: 'cms_video',
                 }

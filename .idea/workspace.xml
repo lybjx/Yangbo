@@ -2,143 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8def527-7f5a-4fcb-a64b-5dd122f14f4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/images/announce1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/images/card1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/images/enrolment.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/images/home1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/images/icon_play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/images/media1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/php-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/video/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/.scrutinizer.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/docs/rtc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/docs/rtc/example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/cdn_get_bandwidth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/cdn_get_flux.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/cdn_get_log_list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/cdn_refresh_urls_dirs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/cdn_timestamp_antileech.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/image_url_builder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/persistent_fop_init.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/persistent_fop_status.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/pfop_mkzip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/pfop_vframe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/pfop_video_avthumb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/pfop_watermark.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/prefop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/qetag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_batch_change_mime.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_batch_change_type.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_batch_copy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_batch_delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_batch_delete_after_days.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_batch_move.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_batch_stat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_bucket_domains.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_buckets.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_change_mime.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_change_status.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_change_type.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_copy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_delete_after_days.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_download_urls.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_fetch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_move.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_prefetch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rs_stat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rsf_list_bucket.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/rsf_list_files.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/saveas.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/upload_and_callback.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/upload_and_pfop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/upload_mgr_init.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/upload_multi_demos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/upload_simple_file.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/upload_tokens.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/examples/upload_verify_callback.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Cdn/CdnManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Etag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Http/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Http/Error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Http/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Http/Response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Processing/ImageUrlBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Processing/Operation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Processing/PersistentFop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Rtc/AppClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Storage/BucketManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Storage/FormUploader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Storage/ResumeUploader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Storage/UploadManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/Zone.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/src/Qiniu/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/test-env.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/AuthTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/Base64Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/BucketTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/CdnManagerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/Crc32Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/DownloadTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/EtagTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/FopTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/FormUpTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/HttpTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/ImageUrlBuilderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/PfopTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/ResumeUpTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/Qiniu/Tests/ZoneTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/vendor/Qiniu/tests/bootstrap.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/005f6bb606289e421b03018b9d13ec67.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/03bdb9f201d5942837057458cc0721bf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/0684b9fe974c2b3747a5aafd6f065c09.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/1837cbcebe46f8738ab5c11c3d821395.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/1b61965e372a1595b2d2b1eaf866d5f4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/1e240d2b9bb4c89be92db1a4416af05c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/37f65304d548f7dcac1772334fffad0e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/3e0ec0032ef909cc387947d652e9ed71.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/42a9f19a577d93486eb54bcd0fae46c1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/436406b50fb2b0e21a29965698d189fd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/507e078216b3a72cc3e509af7b145fc1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/5a3c84a230f429e05e03625db742c2ae.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/64e256522cb6bd29c6351df715b4c229.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/82d5390cadc51395c1934e95aa54df98.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/85022cfe9a7cc8e82a6be3077662436d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/9f15aae71f788defe93e63d25c785629.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/a2aceb16b30211c02fa29a8e5b383d6a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/c2b483d7e193ed462cec3d978c02ebb7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/efec62900344585a25617e6993d81391.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/fbc1b19ddec5d348a0cdef363ebb92bc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhpCode/runtime/temp/fedafe1c3b166781b835c1136438289e.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/application/admin/controller/Flash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/flash/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/flash/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/flash/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/backend/flash.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/admin/controller/Video.php" afterPath="$PROJECT_DIR$/PhpCode/application/admin/controller/Video.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/admin/view/news/add.html" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/news/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/admin/view/news/edit.html" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/news/edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/admin/view/video/add.html" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/video/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/common/model/News.php" afterPath="$PROJECT_DIR$/PhpCode/application/common/model/News.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/common/model/Video.php" afterPath="$PROJECT_DIR$/PhpCode/application/common/model/Video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/index/controller/Index.php" afterPath="$PROJECT_DIR$/PhpCode/application/index/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/index/view/index/index.html" afterPath="$PROJECT_DIR$/PhpCode/application/index/view/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/route.php" afterPath="$PROJECT_DIR$/PhpCode/application/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/css/style.css" afterPath="$PROJECT_DIR$/PhpCode/public/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/application/admin/view/video/edit.html" afterPath="$PROJECT_DIR$/PhpCode/application/admin/view/video/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/js/backend/news.js" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/backend/news.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/js/backend/video.js" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/backend/video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/config.json.example" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/config.json.example" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/demo1/common/common.js" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/demo1/common/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/demo1/main.js" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/demo1/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/server.js" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/public/assets/js/script.js" afterPath="$PROJECT_DIR$/PhpCode/public/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/thinkphp/base.php" afterPath="$PROJECT_DIR$/PhpCode/thinkphp/base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhpCode/runtime/cache/cb/78ef4a9130f39208ff10858ddd8377.php" afterPath="$PROJECT_DIR$/PhpCode/runtime/cache/cb/78ef4a9130f39208ff10858ddd8377.php" />
     </list>
     <ignored path="Yangbo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,33 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/application/index/controller/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.708334">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-              <folding>
-                <element signature="e#40#75#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/video/add.html">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/flash/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1960785">
-              <caret line="28" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.235294">
+              <caret line="69" column="100" selection-start-line="69" selection-start-column="100" selection-end-line="69" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/video/edit.html">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/news/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.0">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="77" column="84" selection-start-line="77" selection-start-column="84" selection-end-line="77" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -195,68 +59,78 @@
       <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/news/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="59" />
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/controller/Video.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/flash/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26271185">
-              <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+            <state vertical-scroll-proportion="4.375">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="News.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/application/common/model/News.php">
+      <file leaf-file-name="news.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.833334">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.037220843">
+              <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/video.js">
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/flash/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="63" column="9" selection-start-line="63" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/application/common/model/Video.php">
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4583335">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <state vertical-scroll-proportion="-11.833333">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadWithSDK.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/demo1/scripts/uploadWithSDK.js">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/video/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6296296">
-              <caret line="46" column="15" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="19" />
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/demo1/common/common.js">
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/video/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state vertical-scroll-proportion="-10.541667">
+              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/category/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="82" column="5" selection-start-line="82" selection-start-column="4" selection-end-line="87" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -296,13 +170,10 @@
         <option value="$PROJECT_DIR$/PhpCode/public/index.php" />
         <option value="$PROJECT_DIR$/PhpCode/addons/ueditor/assets/ueditor.config.js" />
         <option value="$PROJECT_DIR$/PhpCode/application/config.php" />
-        <option value="$PROJECT_DIR$/PhpCode/application/admin/view/news/edit.html" />
         <option value="$PROJECT_DIR$/PhpCode/public/assets/js/backend/auth/admin.js" />
         <option value="$PROJECT_DIR$/PhpCode/application/admin/controller/News.php" />
         <option value="$PROJECT_DIR$/PhpCode/addons/qiniu/config.php" />
         <option value="$PROJECT_DIR$/PhpCode/addons/qiniu/Qiniu.php" />
-        <option value="$PROJECT_DIR$/PhpCode/application/admin/view/news/add.html" />
-        <option value="$PROJECT_DIR$/PhpCode/public/assets/js/backend/news.js" />
         <option value="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/src/index.js" />
         <option value="$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/test/demo3/index.js" />
         <option value="$PROJECT_DIR$/PhpCode/public/router.php" />
@@ -318,10 +189,17 @@
         <option value="$PROJECT_DIR$/PhpCode/application/index/controller/Index.php" />
         <option value="$PROJECT_DIR$/PhpCode/application/common/model/Video.php" />
         <option value="$PROJECT_DIR$/PhpCode/application/common/model/News.php" />
+        <option value="$PROJECT_DIR$/PhpCode/application/admin/controller/Video.php" />
+        <option value="$PROJECT_DIR$/PhpCode/application/admin/controller/Flash.php" />
+        <option value="$PROJECT_DIR$/PhpCode/public/assets/js/backend/flash.js" />
+        <option value="$PROJECT_DIR$/PhpCode/public/assets/js/backend/news.js" />
         <option value="$PROJECT_DIR$/PhpCode/public/assets/js/backend/video.js" />
+        <option value="$PROJECT_DIR$/PhpCode/application/admin/view/flash/edit.html" />
+        <option value="$PROJECT_DIR$/PhpCode/application/admin/view/flash/add.html" />
         <option value="$PROJECT_DIR$/PhpCode/application/admin/view/video/add.html" />
         <option value="$PROJECT_DIR$/PhpCode/application/admin/view/video/edit.html" />
-        <option value="$PROJECT_DIR$/PhpCode/application/admin/controller/Video.php" />
+        <option value="$PROJECT_DIR$/PhpCode/application/admin/view/news/add.html" />
+        <option value="$PROJECT_DIR$/PhpCode/application/admin/view/news/edit.html" />
       </list>
     </option>
   </component>
@@ -878,6 +756,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yangbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yangbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhpCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="category" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yangbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yangbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhpCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -925,11 +863,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PhpCode/public/assets/js/backend" />
+      <recent name="$PROJECT_DIR$/PhpCode/application/admin/controller" />
+      <recent name="$PROJECT_DIR$/PhpCode/application/admin/view" />
       <recent name="$PROJECT_DIR$/PhpCode/vendor" />
       <recent name="$PROJECT_DIR$/PhpCode/public/assets" />
-      <recent name="$PROJECT_DIR$/PhpCode/public/assets/js" />
-      <recent name="$PROJECT_DIR$/PhpCode/application/admin/view/video" />
-      <recent name="$PROJECT_DIR$/PhpCode/public/assets/js/backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PhpCode/public/assets/js/backend" />
@@ -1035,7 +973,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1072,70 +1010,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/auth/rule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/category/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7915567">
-          <caret line="59" column="53" selection-start-line="54" selection-start-column="16" selection-end-line="59" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/thinkphp/convention.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-76.47059">
-          <caret line="285" column="35" selection-start-line="285" selection-start-column="35" selection-end-line="285" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/user/group/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/auth/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhpCode/application/common/controller/Backend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37118644">
@@ -1232,14 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/news/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9583333">
-          <caret line="59" column="91" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/qiniu/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5863192">
@@ -1252,14 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70846903">
           <caret line="29" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1425,7 +1283,7 @@
         <state vertical-scroll-proportion="-27.708334">
           <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding>
-            <element signature="e#40#75#0#PHP" expanded="true" />
+            <element signature="e#40#75#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1446,42 +1304,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/controller/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.708333">
+          <caret line="150" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/controller/Flash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533742466000" expanded="true" signature="6046:6102" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/video.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/flash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/category/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="4" selection-end-line="87" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.833333">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/flash/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/flash/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.235294">
+          <caret line="69" column="100" selection-start-line="69" selection-start-column="100" selection-end-line="69" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/video/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1960785">
-          <caret line="28" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/news/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="59" />
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/video/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.0">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state vertical-scroll-proportion="-10.541667">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/controller/Video.php">
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/news/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26271185">
-          <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="77" column="84" selection-start-line="77" selection-start-column="84" selection-end-line="77" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/news/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/application/admin/view/flash/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhpCode/public/assets/js/backend/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037220843">
+          <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
           <folding />
         </state>
       </provider>
