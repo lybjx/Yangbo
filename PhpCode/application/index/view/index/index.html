@@ -9,6 +9,12 @@
     <script src="/assets/js/slick.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </head>
+<style>
+    .smallimg{
+        width:30rem;
+        height:30rem;
+    }
+</style>
 <body>
 <div class="wrap">
     <div class="navigator">
@@ -29,9 +35,9 @@
     </div>
     <div class="slider">
         <ul class="flash_slides">
+            {foreach name="$bannerList" item="vv"}
             <li><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash1.jpg" alt=""></a></li>
-            <li><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash2.jpg" alt=""></a></li>
-            <li><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash3.jpg" alt=""></a></li>
+            {/foreach}
         </ul>
     </div>
     <div class="menu1">
@@ -48,12 +54,12 @@
     <div class="intro_tail">"</div>
     <div class="school_content">
         <ul class="school_slides">
-            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash1.jpg" alt=""><div class="school_text_block"><p>上海市民办扬波外国语小学建校二十周年庆典</p></div></a></div></li>
-            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash2.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
-            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash3.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
-            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash1.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
-            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash2.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
-            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash3.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
+            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img smallimg" src="/assets/images/flash1.jpg" alt=""><div class="school_text_block"><p>上海市民办扬波外国语小学建校二十周年庆典</p></div></a></div></li>
+            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img smallimg" src="/assets/images/flash2.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
+            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img smallimg" src="/assets/images/flash3.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
+            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img smallimg" src="/assets/images/flash1.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
+            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img smallimg" src="/assets/images/flash2.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
+            <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img smallimg" src="/assets/images/flash3.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
         </ul>
     </div>
     <button class="school_content_more">查看更多</button>
@@ -66,76 +72,17 @@
         </ul>
     </div>
     <div class="student_content">
-        <div class="student_content_card" id="card01">
+        {foreach name="$xshdList" item="vv"}
+        <div class="student_content_card" id="card0{$key+1}">
+            <a href="/article/{$vv.sn}.html" target="_blank">
             <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
+                <img src="{$vv.cover_img}">
+                <label class="card_content_title">{$vv.title}</label>
                 <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
+            </div></a>
         </div>
-        <div class="student_content_card" id="card02">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card03">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card04">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card05">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card06">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card07">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card08">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card09">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
-        <div class="student_content_card" id="card10">
-            <div class="card_content">
-                <img src="/assets/images/card1.jpg">
-                <label class="card_content_title">一年级书法系列</label>
-                <span class="card_content_abstract">小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法小蜜蜂书法</span>
-            </div>
-        </div>
+        {/foreach}
+
     </div>
     <button class="student_content_more">查看更多</button>
     <div class="announce_content">
@@ -145,44 +92,22 @@
                 <label id="announce_content_left_head_english">announcement</label>
             </div>
             <ul class="announce_list">
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
-                <li class="announce_list_item"><span>扬波小学2017学年第二学期学末工行hheihdhdh</span></li>
+                {foreach name="$ggList" item="vv"}
+                <li class="announce_list_item"><span>{$vv.title}</span></li>
+               {/foreach}
             </ul>
             <label class="announce_list_more">查看更多</label>
             <div class="announce_card_area">
                 <div class="announce_card_wrap">
-                    <div class="announce_card" id="cardA01">
+                    {foreach name="zpxxList" item="vv"}
+                    <div class="announce_card" id="cardA0{$key+1}">
                         <div class="announce_card_content">
-                            <img src="/assets/images/announce1.jpg">
-                            <label class="announce_card_title">2018年上海市扬波外国语小学招聘信息</label>
-                            <span class="announce_card_abstract">在职优秀教师：本科及以上学历，小学高级及以上职称。师德高尚，教学业绩突出，有较强的团队合作精神。英语听说能力强者，条件可适当放宽。<br><br>	优秀应届毕业生：本科及以上学历，有教师资格证书。热爱教育事业，有强烈的工作责任心，有扎实的专业基础，有较强的英语听说能力。</span>
+                            <img src="{$vv.cover_img}">
+                            <label class="announce_card_title">{$vv.title}</label>
+                            <span class="announce_card_abstract">{$vv.body}</span>
                         </div>
                     </div>
-                    <div class="announce_card" id="cardA02">
-                        <div class="announce_card_content">
-                            <img src="/assets/images/announce1.jpg">
-                            <label class="announce_card_title">2018年上海市扬波外国语小学招聘信息</label>
-                            <span class="announce_card_abstract">在职优秀教师：本科及以上学历，小学高级及以上职称。师德高尚，教学业绩突出，有较强的团队合作精神。英语听说能力强者，条件可适当放宽。<br><br>	优秀应届毕业生：本科及以上学历，有教师资格证书。热爱教育事业，有强烈的工作责任心，有扎实的专业基础，有较强的英语听说能力。</span>
-                        </div>
-                    </div>
-                    <div class="announce_card" id="cardA03">
-                        <div class="announce_card_content">
-                            <img src="/assets/images/announce1.jpg">
-                            <label class="announce_card_title">2018年上海市扬波外国语小学招聘信息</label>
-                            <span class="announce_card_abstract">在职优秀教师：本科及以上学历，小学高级及以上职称。师德高尚，教学业绩突出，有较强的团队合作精神。英语听说能力强者，条件可适当放宽。<br><br>	优秀应届毕业生：本科及以上学历，有教师资格证书。热爱教育事业，有强烈的工作责任心，有扎实的专业基础，有较强的英语听说能力。</span>
-                        </div>
-                    </div>
+                    {/foreach}
                 </div>
             </div>
         </div>
@@ -194,42 +119,14 @@
             <label class="enrolment_content_english">Enrolment</label>
             <div class="enrolment_content_area">
                 <ul class="enrolment_content_list">
+                    {foreach name="zsxxList" item="vv"}
                     <li class="enrolment_content_list_item">
                         <div class="enrolment_content_list_item_content">
                             <label>招生信息</label>
-                            <span>上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬</span>
+                            <span>{$vv.body}</span>
                         </div>
                     </li>
-                    <li class="enrolment_content_list_item">
-                        <div class="enrolment_content_list_item_content">
-                            <label>招生信息</label>
-                            <span>上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬</span>
-                        </div>
-                    </li>
-                    <li class="enrolment_content_list_item">
-                        <div class="enrolment_content_list_item_content">
-                            <label>招生信息</label>
-                            <span>上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬</span>
-                        </div>
-                    </li>
-                    <li class="enrolment_content_list_item">
-                        <div class="enrolment_content_list_item_content">
-                            <label>招生信息</label>
-                            <span>上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬</span>
-                        </div>
-                    </li>
-                    <li class="enrolment_content_list_item">
-                        <div class="enrolment_content_list_item_content">
-                            <label>招生信息</label>
-                            <span>上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬</span>
-                        </div>
-                    </li>
-                    <li class="enrolment_content_list_item">
-                        <div class="enrolment_content_list_item_content">
-                            <label>招生信息</label>
-                            <span>上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬波小学2018年初中招生简章上海市民办扬</span>
-                        </div>
-                    </li>
+                    {/foreach}
                 </ul>
             </div>
         </div>
@@ -348,11 +245,9 @@
         <img class="site_map_image" src="/assets/images/bg.png">
         <label class="site_map_announce_title">公告栏</label>
         <ul class="site_map_announce_list">
-            <li>[2018-06-30]  扬波小学2018年暑期值班表</li>
-            <li>[2018-06-30]  扬波小学2018年暑期值班表</li>
-            <li>[2018-06-30]  扬波小学2018年暑期值班表</li>
-            <li>[2018-06-30]  扬波小学2018年暑期值班表</li>
-            <li>[2018-06-30]  扬波小学2018年暑期值班表</li>
+            {foreach name="ggList" item="vv" limit=5}
+            <li>{$vv.createtime}    {$vv.title}</li>
+            {/foreach}
         </ul>
         <label class="site_map_link_title">网站地图</label>
         <ul class="site_map_link_list">

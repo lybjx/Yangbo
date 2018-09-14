@@ -1,0 +1,121 @@
+<!-- <html> -->
+<head>
+    <meta charset="utf-8" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/slick-theme.css">
+    <!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.css"-->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+
+</head>
+<style>
+    .smallimg{
+        width:30rem;
+        height:30rem;
+    }
+</style>
+<style>
+    .pagination {}
+    .pagination li {display: inline-block;margin-right: -1px;padding: 5px;border: 1px solid #e2e2e2;min-width: 20px;text-align: center;}
+    .pagination li.active {background: #009688;color: #fff;border: 1px solid #009688;}
+    .pagination li a {display: block;text-align: center;}
+    pagelist {padding:10px 0; text-align:center;}
+    .pagelist span,.pagelist a{ border-radius:3px; border:1px solid #dfdfdf;display:inline-block; padding:5px 12px;}
+    .pagelist a{ margin:0 3px;}
+    .pagelist span.current{ background:#09F; color:#FFF; border-color:#09F; margin:0 2px;}
+    .pagelist a:hover{background:#09F; color:#FFF; border-color:#09F; }
+    .pagelist label{ padding-left:15px; color:#999;}
+    .pagelist label b{color:red; font-weight:normal; margin:0 3px;}
+    .tab{
+        background: #FAFAFA;
+        border-radius: 4px;
+        position:absolute;
+        top:30rem;
+        left:12.5rem;
+        width:200pt;
+        height:526pt;
+        text-align: center;float:left;
+    }
+    .school{
+        font-family: PingFangSC-Medium;
+        font-size: 32px;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 32px;
+    }
+    .listhtml{
+        float:right;
+    }
+</style>
+<body>
+<div class="wrap">
+    <div class="navigator">
+        <div class="logo">logo</div>
+        <div class="navi_bar">
+            <ul>
+                <li class="navi_bar_item"><a href="">学校</a></li>
+                <li class="navi_bar_item"><a href="">学生</a></li>
+                <li class="navi_bar_item"><a href="">公告</a></li>
+                <li class="navi_bar_item"><a href="">招生</a></li>
+                <li class="navi_bar_item"><a href="">媒体中心</a></li>
+                <li class="navi_bar_item"><a href="">家校互动</a></li>
+                <li class="navi_bar_item"><a href="">投票中心</a></li>
+                <li class="navi_bar_item"><a href="">校友之家</a></li>
+            </ul>
+        </div>
+        <div class="login">登陆</div>
+    </div>
+    <div class="slider">
+        <ul class="flash_slides">
+            {foreach name="$bannerList" item="vv"}
+            <li><a href="" target="_blank"><img class="slider_img" src="/assets/images/flash1.jpg" alt=""></a></li>
+            {/foreach}
+        </ul>
+    </div>
+    <div class="tab">
+        <span class="school">学校</span>
+    </div>
+    <div class="listhtml">
+        <div class="intro_head">"</div>
+        <div class="intro">上海市民办扬波外国语小学成立于1992年夏，是一所全日制民办小学，<br>是上海市首批民办学校之一，是上海市民办中小学依法办学评估优秀校，<br>是上海市十二所外语类及外语特色类学校教学联盟的成员之一。</div>
+        <div class="intro_tail">"</div>
+{$list->render()}
+        </div>
+</div>
+<div class="site_map_content">
+    <img class="site_map_image" src="/assets/images/bg.png">
+    <label class="site_map_announce_title">公告栏</label>
+    <ul class="site_map_announce_list">
+        {foreach name="ggList" item="vv" limit=5}
+        <li>{$vv.createtime}    {$vv.title}</li>
+        {/foreach}
+    </ul>
+    <label class="site_map_link_title">网站地图</label>
+    <ul class="site_map_link_list">
+        <li><span>[学校]</span><span><a href="#">校史</a></span><span><a href="#">教师</a></span><span><a href="#">工会</a></span><span><a href="#">党团</a></span><span><a href="#">教学</a></span></li>
+        <li><span>[学生]</span><span><a href="#">学生活动</a></span><span><a href="#">学生活动</a></span><span><a href="#">团队信息</a></span><span><a href="#">学生作品</a></span></li>
+        <li><span>[通知]</span><span><a href="#">公告</a></span><span><a href="#">招生</a></span></li>
+        <li><span>[功能]</span><span><a href="#">媒体中心</a></span><span><a href="#">家校互动</a></span><span><a href="#">投票中心</a></span><span><a href="#">校友之家</a></span></li>
+    </ul>
+    <label class="site_map_contact_title">联系方式</label>
+    <ul class="site_map_contact_list">
+        <li>地址：上海市延长中路800弄88号</li>
+        <li>邮编：200072</li>
+        <li>邮箱：yangboschool@163.com</li>
+        <li>电话：021-56088086</li>
+    </ul>
+    <img class="qrcode" src="/assets/images/qrcode.png" alt="二维码">
+</div>
+<div class="foot">
+    <label class="foot_text">上海市民办扬波外国语小学  All Rights Reserved Copyright.   沪公网安备 31010602002255号</label>
+</div>
+</body>
+<foot>
+    <script>
+
+    </script>
+</foot>
+</html>

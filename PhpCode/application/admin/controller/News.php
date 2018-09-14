@@ -71,7 +71,10 @@ $newsList = $this->model->getnewList();
             if ($this->request->isPost()) {
                 $params = $this->request->post("row/a");
                 $categoryids=$params['categoryids'];
+                $body=$_POST["row"]["body"];
+                $categoryids=$params['categoryids'];
                 unset($params['categoryids']);
+                $params["body"]=$body;
                 //print_r($params);die;
                 if ($params) {
                     if ($this->dataLimit && $this->dataLimitFieldAutoFill) {
@@ -160,8 +163,11 @@ $newsList = $this->model->getnewList();
         {
             if ($this->request->isPost()) {
                 $params = $this->request->post("row/a");
+                //$tem=input("row");
+                $body=$_POST["row"]["body"];
                 $categoryids=$params['categoryids'];
                 unset($params['categoryids']);
+                $params["body"]=$body;
                 //print_r($params);die;
                 if ($params) {
                     if ($this->dataLimit && $this->dataLimitFieldAutoFill) {
@@ -180,6 +186,7 @@ $newsList = $this->model->getnewList();
                         if ($result !== false) {
                             $articleid=$ids;
                             $ids=explode(",",$categoryids);
+                            $News->table("cms_article2category")->where('articleid='.$articleid)->delete();
                             foreach($ids as $kk=>$vv){
                                 $data['categoryid']=$vv;
                                 $data['articleid']=$articleid;
