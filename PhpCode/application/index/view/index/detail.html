@@ -1,0 +1,73 @@
+<!-- <html> -->
+<head>
+    <meta charset="utf-8" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/slick-theme.css">
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</head>
+<style>
+    .smallimg{
+        width:30rem;
+        height:30rem;
+    }
+</style>
+<body>
+<div class="wrap">
+    <div class="navigator">
+        <div class="logo">logo</div>
+        <div class="navi_bar">
+            <ul>
+                <li class="navi_bar_item"><a href="">学校</a></li>
+                <li class="navi_bar_item"><a href="">学生</a></li>
+                <li class="navi_bar_item"><a href="">公告</a></li>
+                <li class="navi_bar_item"><a href="">招生</a></li>
+                <li class="navi_bar_item"><a href="">媒体中心</a></li>
+                <li class="navi_bar_item"><a href="">家校互动</a></li>
+                <li class="navi_bar_item"><a href="">投票中心</a></li>
+                <li class="navi_bar_item"><a href="">校友之家</a></li>
+            </ul>
+        </div>
+        <div class="login">登陆</div>
+    </div>
+    <h1 style="text-align: center;margin-top: 1rem;">{$news.title}</h1>
+    <h5 style="text-align: center;margin-top: 1rem;">发布时间:{$news.createtime}            作者:{$news.writer}</h5>
+    <div style="margin-left:13rem;margin-right:13rem;">{$news.body}</div>
+</div>
+<div class="site_map_content">
+    <img class="site_map_image" src="/assets/images/bg.png">
+    <label class="site_map_announce_title">公告栏</label>
+    <ul class="site_map_announce_list">
+        {foreach name="ggList" item="vv" limit=5}
+        <li>{$vv.createtime}    {$vv.title}</li>
+        {/foreach}
+    </ul>
+    <label class="site_map_link_title">网站地图</label>
+    <ul class="site_map_link_list">
+        <li><span>[学校]</span><span><a href="#">校史</a></span><span><a href="#">教师</a></span><span><a href="#">工会</a></span><span><a href="#">党团</a></span><span><a href="#">教学</a></span></li>
+        <li><span>[学生]</span><span><a href="#">学生活动</a></span><span><a href="#">学生活动</a></span><span><a href="#">团队信息</a></span><span><a href="#">学生作品</a></span></li>
+        <li><span>[通知]</span><span><a href="#">公告</a></span><span><a href="#">招生</a></span></li>
+        <li><span>[功能]</span><span><a href="#">媒体中心</a></span><span><a href="#">家校互动</a></span><span><a href="#">投票中心</a></span><span><a href="#">校友之家</a></span></li>
+    </ul>
+    <label class="site_map_contact_title">联系方式</label>
+    <ul class="site_map_contact_list">
+        <li>地址：上海市延长中路800弄88号</li>
+        <li>邮编：200072</li>
+        <li>邮箱：yangboschool@163.com</li>
+        <li>电话：021-56088086</li>
+    </ul>
+    <img class="qrcode" src="/assets/images/qrcode.png" alt="二维码">
+</div>
+<div class="foot">
+    <label class="foot_text">上海市民办扬波外国语小学  All Rights Reserved Copyright.   沪公网安备 31010602002255号</label>
+</div>
+</body>
+<foot>
+    <script>
+
+    </script>
+</foot>
+</html>
