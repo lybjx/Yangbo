@@ -103,7 +103,9 @@ class Index extends Frontend
             ->join('yb_cms_db.fa_category c','c.id = a.categoryid','LEFT')
             ->where(["b.status"=>1,"a.categoryid"=>$cid])
             ->order("b.id", "desc")
-            ->paginate(1);
+            ->paginate(10,true,[
+                'query' => request()->param(),
+            ]);
 
 $this->assign("list",$result);
          $page = $result->render();

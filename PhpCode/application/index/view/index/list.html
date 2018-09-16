@@ -33,21 +33,39 @@
         background: #FAFAFA;
         border-radius: 4px;
         position:absolute;
-        top:30rem;
-        left:12.5rem;
+        top:32rem;
+        left:0rem;
         width:200pt;
         height:526pt;
-        text-align: center;float:left;
+        text-align: center;
+        float:left;
     }
     .school{
         font-family: PingFangSC-Medium;
         font-size: 32px;
         color: #333333;
         letter-spacing: 0;
-        line-height: 32px;
+        line-height: 3rem;
+        height:3rem;
     }
     .listhtml{
-        float:right;
+        float:left;
+    }
+
+    element.style {
+        top: 572.544px;
+        left: 65rem;
+    }
+    .intro_tail1 {
+        width: 40px;
+        height: 90px;
+        position: absolute;
+        font-size: 64px;
+        font-family: PingFangSC-Semibold, sans-serif;
+        color: #E1E0E0;
+        text-align: center;
+        top: 572.544px;
+        left: 65rem;
     }
 </style>
 <body>
@@ -56,17 +74,17 @@
         <div class="logo">logo</div>
         <div class="navi_bar">
             <ul>
-                <li class="navi_bar_item"><a href="">学校</a></li>
-                <li class="navi_bar_item"><a href="">学生</a></li>
-                <li class="navi_bar_item"><a href="">公告</a></li>
-                <li class="navi_bar_item"><a href="">招生</a></li>
-                <li class="navi_bar_item"><a href="">媒体中心</a></li>
+                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=school">学校</a></li>
+                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=student">学生</a></li>
+                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=gg">公告</a></li>
+                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=zsxx">招生</a></li>
+                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=mtzx">媒体中心</a></li>
                 <li class="navi_bar_item"><a href="">家校互动</a></li>
                 <li class="navi_bar_item"><a href="">投票中心</a></li>
                 <li class="navi_bar_item"><a href="">校友之家</a></li>
             </ul>
         </div>
-        <div class="login">登陆</div>
+        <div class="login">登录</div>
     </div>
     <div class="slider">
         <ul class="flash_slides">
@@ -81,8 +99,26 @@
     <div class="listhtml">
         <div class="intro_head">"</div>
         <div class="intro">上海市民办扬波外国语小学成立于1992年夏，是一所全日制民办小学，<br>是上海市首批民办学校之一，是上海市民办中小学依法办学评估优秀校，<br>是上海市十二所外语类及外语特色类学校教学联盟的成员之一。</div>
-        <div class="intro_tail">"</div>
+        <div class="intro_tail1">"</div>
+        <div style="margin-left:25rem;margin-top: -5rem;">
+        <ul>
+            {foreach name="$list" item="vv"}
+            <a style="" href="/article/{$vv.sn}">
+            <li style="border:1px solid gray;margin-top:1rem;"><image style="float: left;border:none;;width:12rem ;height:12rem" src="{$vv.cover_img}"></image>
+                <div style="float: left;width: 23rem;;">
+                    <div>{$vv.title}</div>
+                    <div>{$vv.abstract}</div>
+                </div>
+                <div style="float: left;">
+                    {$vv.createtime}
+                </div>
+                <div style="clear: both"></div>
+            </li>
+                </a>
+            {/foreach}
+        </ul>
 {$list->render()}
+        </div>
         </div>
 </div>
 <div class="site_map_content">
