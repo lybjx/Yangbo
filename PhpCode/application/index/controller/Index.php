@@ -66,7 +66,39 @@ class Index extends Frontend
     }
     public function newsdetail( ){
         $sn= input("ksn");
-        //echo $sn;
+        $this->model=model('News');
+
+        $this->assign("ggList",$this->newslist("gg",10));
+        $this->assign("bannerList",$this->bannerList());
+        $page=input("p",1);
+        $aid=$this->model->table("yb_cms_db.cms_article")->where(["sn"=>$sn])->find();
+        $aid=$aid['id'];
+        $cid=$this->model->table("yb_cms_db.cms_article2category")->where(['articleid'=>$aid])->find();
+        $cid=$cid['categoryid'];
+        $cid=$this->model->table("yb_cms_db.fa_category")->where(["id"=>$cid])->find();
+        if($cid['pid']==0){
+            $pid=$cid['id'];
+            $maincate=$cid['name'];
+        }else {
+            $pid = $cid['pid'];
+            $tmp=$this->model->table("yb_cms_db.fa_category")->where(["id"=>$pid])->find();
+            $maincate=$tmp['name'];
+        }
+        $title=$cid['name'];
+        $categorys=$this->model->table("yb_cms_db.fa_category")->where(["pid"=>$pid])->select();
+        foreach($categorys as $kk=>$vv){
+            if($categorys[$kk]['nickname']==input("cid")){
+                $categorys[$kk]['active']=true;
+            }else{
+                $categorys[$kk]['active']=false;
+            }
+        }
+        $this->assign("maincate",$maincate);
+
+
+        $this->assign("title",$title);
+        $this->assign("categorys",$categorys);
+
         $this->assign("ggList",$this->newslist("gg",10));
         $this->model=model('News');
         $result= $this->model->table("cms_article")->where(["sn" =>$sn])->find();
@@ -88,16 +120,35 @@ class Index extends Frontend
         if(!$this->request->isGet()){
 
         }
+        $this->model=model('News');
+
         $this->assign("ggList",$this->newslist("gg",10));
         $this->assign("bannerList",$this->bannerList());
         $page=input("p",1);
         $cid=input("cid");
-        $this->model=model('News');
+
         $cid=$this->model->table("yb_cms_db.fa_category")->where(["nickname"=>$cid])->find();
+        if($cid['pid']==0){
+            $pid=$cid['id'];
+            $maincate=$cid['name'];
+        }else {
+            $pid = $cid['pid'];
+            $tmp=$this->model->table("yb_cms_db.fa_category")->where(["id"=>$pid])->find();
+            $maincate=$tmp['name'];
+        }
+        $title=$cid['name'];
+        $categorys=$this->model->table("yb_cms_db.fa_category")->where(["pid"=>$pid])->select();
+        foreach($categorys as $kk=>$vv){
+            if($categorys[$kk]['nickname']==input("cid")){
+                $categorys[$kk]['active']=true;
+            }else{
+                $categorys[$kk]['active']=false;
+            }
+        }
         $cid=$cid['id'];
         $count=20;
         $where="status=1 and ";
-
+        $this->assign("maincate",$maincate);
         $result= $this->model->table("cms_article")->alias('b')
             ->join('yb_cms_db.cms_article2category a','a.articleid = b. id','LEFT')
             ->join('yb_cms_db.fa_category c','c.id = a.categoryid','LEFT')
@@ -109,7 +160,8 @@ class Index extends Frontend
 
 $this->assign("list",$result);
          $page = $result->render();
-
+$this->assign("title",$title);
+        $this->assign("categorys",$categorys);
         $this->assign('page', $page);
         return $this->fetch("/index/list");
     }

@@ -14,6 +14,55 @@
         width:30rem;
         height:30rem;
     }
+    .tab{
+        background: #FAFAFA;
+        border-radius: 4px;
+        width:20rem;
+        height:526pt;
+        text-align: center;
+        float:left;
+    }
+    .school{
+        font-family: PingFangSC-Medium;
+        font-size: 32px;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 6rem;
+        height:6rem;
+    }
+    .listhtml{
+        float:left;
+    }
+
+    element.style {
+        top: 572.544px;
+        left: 65rem;
+    }
+    .intro_tail1 {
+        width: 40px;
+        height: 90px;
+        position: absolute;
+        font-size: 64px;
+        font-family: PingFangSC-Semibold, sans-serif;
+        color: #E1E0E0;
+        text-align: center;
+        top: 572.544px;
+        left: 65rem;
+    }
+    .school1{
+        background: #D5D5D5;
+        height:1px;
+        width:150px;
+        text-align: center;
+        margin-left:80px
+    }
+    .cate{
+        margin-top:2rem;
+        list-style:disc;
+    }
+    ul .active{
+        color:red;
+    }
 </style>
 <body>
 <div class="wrap">
@@ -32,10 +81,22 @@
             </ul>
         </div>
         <div class="login">登陆</div>
+
+    </div><div style="clear: both"></div>
+    <div class="tab">
+        <span class="school">{$maincate}</span>
+        <div class="school1"></div>
+        <ul>
+            {foreach name="$categorys" item="v"}
+            <li class="cate {if condition="$v.active eq true"}active{/if}"><a class="{if condition="$v.active eq true"}active{/if}" href="/index/index/infolist.html?cid={$v.nickname}">{$v.name}</a></li>
+            {/foreach}
+        </ul>
     </div>
-    <h1 style="text-align: center;margin-top: 1rem;">{$news.title}</h1>
-    <h5 style="text-align: center;margin-top: 1rem;">发布时间:{$news.createtime}            作者:{$news.writer}</h5>
-    <div style="margin-left:13rem;margin-right:13rem;">{$news.body}</div>
+    <div style="float:left;width:70%;text-align: center">
+    <h1 style="text-align: center;margin-top: 1rem;width: 70%;">{$news.title}</h1>
+    <h5 style="text-align: center;margin-top: 1rem;width: 70%;">发布时间:{$news.createtime}            作者:{$news.writer}</h5>
+    <div style="margin-right:13rem;">{$news.body}</div>
+    </div>
 </div>
 <div class="site_map_content">
     <img class="site_map_image" src="/assets/images/bg.png">

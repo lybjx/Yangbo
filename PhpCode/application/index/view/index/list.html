@@ -1,7 +1,7 @@
 <!-- <html> -->
 <head>
     <meta charset="utf-8" />
-    <title>HomePage</title>
+    <title>{$title}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/slick.css">
     <link rel="stylesheet" href="/assets/css/slick-theme.css">
@@ -45,8 +45,8 @@
         font-size: 32px;
         color: #333333;
         letter-spacing: 0;
-        line-height: 3rem;
-        height:3rem;
+        line-height: 6rem;
+        height:6rem;
     }
     .listhtml{
         float:left;
@@ -67,6 +67,20 @@
         top: 572.544px;
         left: 65rem;
     }
+    .school1{
+        background: #D5D5D5;
+        height:1px;
+        width:100px;
+        text-align: center;
+        margin-left:80px
+    }
+    .cate{
+        margin-top:2rem;
+        list-style:disc;
+    }
+    ul .active{
+color:red;
+    }
 </style>
 <body>
 <div class="wrap">
@@ -77,7 +91,7 @@
                 <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=school">学校</a></li>
                 <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=student">学生</a></li>
                 <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=gg">公告</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=zsxx">招生</a></li>
+                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=zsbm">招生</a></li>
                 <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=mtzx">媒体中心</a></li>
                 <li class="navi_bar_item"><a href="">家校互动</a></li>
                 <li class="navi_bar_item"><a href="">投票中心</a></li>
@@ -94,7 +108,13 @@
         </ul>
     </div>
     <div class="tab">
-        <span class="school">学校</span>
+        <span class="school">{$maincate}</span>
+        <div class="school1"></div>
+        <ul>
+            {foreach name="$categorys" item="v"}
+            <li class="cate {if condition="$v.active eq true"}active{/if}"><a class="{if condition="$v.active eq true"}active{/if}" href="infolist.html?cid={$v.nickname}">{$v.name}</a></li>
+            {/foreach}
+        </ul>
     </div>
     <div class="listhtml">
         <div class="intro_head">"</div>
