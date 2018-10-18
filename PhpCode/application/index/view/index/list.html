@@ -84,22 +84,7 @@ color:red;
 </style>
 <body>
 <div class="wrap">
-    <div class="navigator">
-        <div class="logo">logo</div>
-        <div class="navi_bar">
-            <ul>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=school">学校</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=student">学生</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=gg">公告</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=zsbm">招生</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=mtzx">媒体中心</a></li>
-                <li class="navi_bar_item"><a href="">家校互动</a></li>
-                <li class="navi_bar_item"><a href="">投票中心</a></li>
-                <li class="navi_bar_item"><a href="">校友之家</a></li>
-            </ul>
-        </div>
-        <div class="login">登录</div>
-    </div>
+    {include file="index/header"/}
     <div class="slider">
         <ul class="flash_slides">
             {foreach name="$bannerList" item="vv"}
@@ -130,7 +115,7 @@ color:red;
                     <div>{$vv.abstract}</div>
                 </div>
                 <div style="float: left;">
-                    {$vv.createtime}
+                    {$vv.createtime|date='Y-m-d h:i:s',###}
                 </div>
                 <div style="clear: both"></div>
             </li>

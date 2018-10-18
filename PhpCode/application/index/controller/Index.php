@@ -41,6 +41,7 @@ class Index extends Frontend
         $this->assign("zsxxList",$this->newslist("zsbm",10));
         $this->assign("mtzxList",$this->newslist("mtzx",10));
         $this->assign("zpxxList",$this->newslist("zpxx",3));
+        $this->assign("mtzxList",$this->newslist("mtzx",10));
         //$this->assign([""])
         return $this->view->fetch();
     }

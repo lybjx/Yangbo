@@ -17,22 +17,7 @@
 </style>
 <body>
 <div class="wrap">
-    <div class="navigator">
-        <div class="logo">logo</div>
-        <div class="navi_bar">
-            <ul>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=school">学校</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=student">学生</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=gg">公告</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=zsxx">招生</a></li>
-                <li class="navi_bar_item"><a href="http://yb.com/index/index/infolist.html?cid=mtzx">媒体中心</a></li>
-                <li class="navi_bar_item"><a href="">家校互动</a></li>
-                <li class="navi_bar_item"><a href="">投票中心</a></li>
-                <li class="navi_bar_item"><a href="">校友之家</a></li>
-            </ul>
-        </div>
-        <div class="login">登陆</div>
-    </div>
+    {include file="index/header"/}
     <div class="slider">
         <ul class="flash_slides">
             {foreach name="$bannerList" item="vv"}
@@ -42,11 +27,11 @@
     </div>
     <div class="menu1">
         <ul>
-            <li class="menu1_item"><a href="">校史</a></li>
-            <li class="menu1_item"><a href="">教师</a></li>
-            <li class="menu1_item"><a href="">工会</a></li>
-            <li class="menu1_item"><a href="">党团</a></li>
-            <li class="menu1_item"><a href="">教学</a></li>
+            <li class="menu1_item"><a href="/index/index/infolist.html?cid=history">校史</a></li>
+            <li class="menu1_item"><a href="/index/index/infolist.html?cid=teacher">教师</a></li>
+            <li class="menu1_item"><a href="/index/index/infolist.html?cid=Labour">工会</a></li>
+            <li class="menu1_item"><a href="/index/index/infolist.html?cid=party">党团</a></li>
+            <li class="menu1_item"><a href="/index/index/infolist.html?cid=teaching">教学</a></li>
         </ul>
     </div>
     <div class="intro_head">"</div>
@@ -62,13 +47,13 @@
             <li><div class="school_slides_block"><a href="" target="_blank"><img class="slider_img smallimg" src="/assets/images/flash3.jpg" alt=""><div class="school_text_block"><p>content</p></div></a></div></li>
         </ul>
     </div>
-    <button class="school_content_more">查看更多</button>
+    <button class="school_content_more" onclick="window.location='/index/index/infolist.html?cid=history'">查看更多</button>
     <div class="menu2">
         <ul>
-            <li class="menu2_item"><a href="">学生活动</a></li>
-            <li class="menu2_item"><a href="">学生风采</a></li>
-            <li class="menu2_item"><a href="">团队信息</a></li>
-            <li class="menu2_item"><a href="">学生作品</a></li>
+            <li class="menu2_item"><a href="/index/index/infolist.html?cid=studentActivity">学生活动</a></li>
+            <li class="menu2_item"><a href="/index/index/infolist.html?cid=xssfc">学生风采</a></li>
+            <li class="menu2_item"><a href="/index/index/infolist.html?cid=tdhd">团队信息</a></li>
+            <li class="menu2_item"><a href="/index/index/infolist.html?cid=xszp">学生作品</a></li>
         </ul>
     </div>
     <div class="student_content">
@@ -84,7 +69,7 @@
         {/foreach}
 
     </div>
-    <button class="student_content_more">查看更多</button>
+    <button class="student_content_more"onclick="window.location='/index/index/infolist.html?cid=student'">查看更多</button>
     <div class="announce_content">
         <div class="announce_content_wrap">
             <div class="announce_content_left_head">
@@ -93,7 +78,7 @@
             </div>
             <ul class="announce_list">
                 {foreach name="$ggList" item="vv"}
-                <li class="announce_list_item"><span>{$vv.title}</span></li>
+                <li class="announce_list_item"><span><a href="/article/{$vv.sn}.html">{$vv.title}</a></span></li>
                {/foreach}
             </ul>
             <label class="announce_list_more">查看更多</label>
@@ -135,38 +120,16 @@
     <label class="media_center_english">Media Center</label>
     <div class="media_content">
         <ul class="media_slide">
+            {foreach name="$mtzxList" item="vv"}
             <li>
                 <div class="media_slide_card" >
                     <div class="media_slide_card_image"><img src="/assets/images/media1.jpg"></div>
-                    <label class="media_slide_card_title">走进秋色，感受海派文化——2016年工会秋游活动</label>
-                    <span class="media_slide_card_desc">11月4日下午，工会组织全体教工游览上海海派文化荟萃之地----衡山坊。在花园住宅和新式里弄中，老师们领略了老上海文化...</span>
+                    <label class="media_slide_card_title">{$vv.title}</label>
+                    <span class="media_slide_card_desc">{$vv.content}</span>
                     <img class="media_play_button" src="/assets/images/icon_play.png" style="display: none;">
                 </div>
             </li>
-            <li>
-                <div class="media_slide_card" >
-                    <div class="media_slide_card_image"><img src="/assets/images/media1.jpg"></div>
-                    <label class="media_slide_card_title">走进秋色，感受海派文化——2016年工会秋游活动</label>
-                    <span class="media_slide_card_desc">11月4日下午，工会组织全体教工游览上海海派文化荟萃之地----衡山坊。在花园住宅和新式里弄中，老师们领略了老上海文化...</span>
-                    <img class="media_play_button" src="/assets/images/icon_play.png" style="display: none;">
-                </div>
-            </li>
-            <li>
-                <div class="media_slide_card" >
-                    <div class="media_slide_card_image"><img src="/assets/images/media1.jpg"></div>
-                    <label class="media_slide_card_title">走进秋色，感受海派文化——2016年工会秋游活动</label>
-                    <span class="media_slide_card_desc">11月4日下午，工会组织全体教工游览上海海派文化荟萃之地----衡山坊。在花园住宅和新式里弄中，老师们领略了老上海文化...</span>
-                    <img class="media_play_button" src="/assets/images/icon_play.png" style="display: none;">
-                </div>
-            </li>
-            <li>
-                <div class="media_slide_card" >
-                    <div class="media_slide_card_image"><img src="images/media1.jpg"></div>
-                    <label class="media_slide_card_title">走进秋色，感受海派文化——2016年工会秋游活动</label>
-                    <span class="media_slide_card_desc">11月4日下午，工会组织全体教工游览上海海派文化荟萃之地----衡山坊。在花园住宅和新式里弄中，老师们领略了老上海文化...</span>
-                    <img class="media_play_button" src="/assets/images/icon_play.png" style="display: none;">
-                </div>
-            </li>
+            {/foreach}
         </ul>
     </div>
     <button class="media_content_more">查看更多</button>
@@ -246,7 +209,7 @@
         <label class="site_map_announce_title">公告栏</label>
         <ul class="site_map_announce_list">
             {foreach name="ggList" item="vv" limit=5}
-            <li>{$vv.createtime}    {$vv.title}</li>
+            <li><a href="/article/{$vv.sn}.html">{$vv.createtime}    {$vv.title}</a></li>
             {/foreach}
         </ul>
         <label class="site_map_link_title">网站地图</label>
